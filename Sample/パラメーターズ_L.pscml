@@ -1,0 +1,2326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playscript>
+  <pscmlversion>0.14</pscmlversion>
+  <header>
+    <title id="1">パラメーターズ</title>
+    <author id="2">沙汰青豆</author>
+  </header>
+  <characters>
+    <charsheadline id="3">登場人物</charsheadline>
+    <character id="4">
+      <name>ピーター</name>
+      <description />
+    </character>
+    <character id="5">
+      <name>メアリー</name>
+      <description />
+    </character>
+    <character id="6">
+      <name>ソフィー</name>
+      <description />
+    </character>
+    <character id="7">
+      <name>ローザ</name>
+      <description />
+    </character>
+    <character id="8">
+      <name>アラン</name>
+      <description />
+    </character>
+    <character id="9">
+      <name>アッシュ</name>
+      <description />
+    </character>
+  </characters>
+  <body>
+    <h1 id="10">プロローグ</h1>
+    <direction id="11">アッシュがふらふらとやってきて腰掛ける。<br />携帯電話で恋人と話している。</direction>
+    <dialogue id="12">
+      <name>アッシュ</name>
+      <line>だから別に一年も二年も待てとは言ってないじゃん。だからちゃんと親に会わせるからさあ近いうちにちゃんと。今はそういう感じじゃないんだって、だから親の方が。いや、オレらが会うのはいいよ。それはいいじゃん別に。それは親関係ないじゃん。いいよ明日会おうよ。うん。じゃあ。</line>
+    </dialogue>
+    <direction id="13">いつの間にかローザが来ている。</direction>
+    <dialogue id="14">
+      <name>ローザ</name>
+      <line>アッシュ。</line>
+    </dialogue>
+    <dialogue id="15">
+      <name>アッシュ</name>
+      <line>ローザ。人が電話してる時あんまり近づくなよ。</line>
+    </dialogue>
+    <dialogue id="16">
+      <name>ローザ</name>
+      <line>恋人？ …ふうん、親と上手く行ってないんだ。</line>
+    </dialogue>
+    <dialogue id="17">
+      <name>アッシュ</name>
+      <line>いや、そんな事ないよ。</line>
+    </dialogue>
+    <dialogue id="18">
+      <name>ローザ</name>
+      <line>孝行したい時に親は無しって言うよね。</line>
+    </dialogue>
+    <dialogue id="19">
+      <name>アッシュ</name>
+      <line>死なねえっつうのそう簡単に。ていうか上手く行ってるって言ってんじゃん。</line>
+    </dialogue>
+    <dialogue id="20">
+      <name>ローザ</name>
+      <line>アッシュ、人はいつかは死ぬの。でも安心して。死んだ人は、私たちを見守ってくれてるから。</line>
+    </dialogue>
+    <dialogue id="21">
+      <name>アッシュ</name>
+      <line>ローザはさあ、なんで霊媒師なんかやってんの？ 幽霊とか見えんの？ 本当に。</line>
+    </dialogue>
+    <direction id="22">ローザ、突然意識を失う。驚くアッシュ。</direction>
+    <dialogue id="23">
+      <name>ローザ</name>
+      <line>済みません、今から客席に向けて写真撮りますので、写りたくない方は顔隠したりとか上手い事やって下さい。あとポップコーンは、全部食べないで少し残しておいて下さい。</line>
+    </dialogue>
+    <direction id="24">ローザ、意識が戻る。</direction>
+    <dialogue id="25">
+      <name>ローザ</name>
+      <line>写真撮ろうか。あ、これスマイルシャッターだから笑って。ほら笑って笑って。</line>
+    </dialogue>
+    <dialogue id="26">
+      <name>アッシュ</name>
+      <line>え。え。</line>
+    </dialogue>
+    <direction id="27">ローザ、写真を撮る。</direction>
+    <dialogue id="28">
+      <name>ローザ</name>
+      <line>やっぱ笑顔が一番だ。…ピーターとメアリーの事、あんまり嫌いにならないであげて。</line>
+    </dialogue>
+    <dialogue id="29">
+      <name>アッシュ</name>
+      <line>向うが嫌ってるんだよ。だって、オレの気持ちを分かろうとしないんだから。分からないんじゃなくて分かろうとしないんだよ。それってもう嫌ってるって事だろ。</line>
+    </dialogue>
+    <dialogue id="30">
+      <name>ローザ</name>
+      <line>それは、誤解かも知れないでしょ。もし…。もしあの二人が誤解したままだったら、あなた生まれてなかったかもね。</line>
+    </dialogue>
+    <dialogue id="31">
+      <name>アッシュ</name>
+      <line>ローザは、パパとママの事を良く知ってるんだよね。</line>
+    </dialogue>
+    <dialogue id="32">
+      <name>ローザ</name>
+      <line>うん。ピーターとメアリーはね、意外と面白いよ。</line>
+    </dialogue>
+    <dialogue id="33">
+      <name>アッシュ</name>
+      <line>ていうかこの写真何だよ。後ろ、すげえ人が写ってんだけど。</line>
+    </dialogue>
+    <dialogue id="34">
+      <name>ローザ</name>
+      <line>その人たちね、パパとママを助けてくれた、守護霊様。</line>
+    </dialogue>
+    <h1 id="35">オープニング</h1>
+    <direction id="36">スライドショー。</direction>
+    <direction id="37">30年前、ピーターとメアリー。<br />食事をしている二人。<br />プレゼントを渡すピーター。<br />メアリーが開けると腕時計。<br />残念そうな表情。<br />メアリーはすでにそれと同じ腕時計をしている。<br />気まずい感じに。</direction>
+    <direction id="38">待ち合わせしているメアリー。<br />チケットを持って走って来るピーター。<br />チケットを見てはっとするメアリー。<br />手帳を確認するとその日に予定を入れていた。<br />謝るメアリー。<br />平静を装うピーター。<br />気まずいまま歩く二人。<br />人混みに埋もれる二人。</direction>
+    <direction id="39">ベンチに少し間を空けて座っている二人。<br />メアリーの手を引いて歩き出すピーター。<br />歓楽街。<br />ホテルの前に立っている二人。<br />ラブホテルの看板。<br />ベッドで待っているピーター。<br />トイレに入っているメアリー。<br />ベッドでゲームを始めてしまうピーター。<br />トイレから出てくるメアリー。<br />気付かずゲームを続けるピーター。<br />気付くとメアリーも横でゲームをしている。<br />それぞれゲームをし続ける二人。<br />ラブホテルの外観。<br />夜が明けていく。</direction>
+    <direction id="40">タイトル『パラメーターズ』</direction>
+    <h1 id="41">メアリーの悩み</h1>
+    <direction id="42">一週間後。<br />ベンチに座って話しているメアリーとソフィー。</direction>
+    <dialogue id="43">
+      <name>メアリー</name>
+      <line>私もう分かんなくなってきた。こないだピーターにさ、iPodにCD取り込んでって頼んだんだけどさ、私の64ギガなんだけど。で今まで160キロで入れてたからそれだともう入らなくなるから、128にしといてって言ったのね。そしたら今までのも全部128にしちゃってて。え、それ取り敢えず今回だけ128にすればいいじゃんって言ったらさ、そしたら次また入らなくなるとか言って。それはその時考えればいいじゃん。だって頼んでないんだよ。全部やってとは言ってないんだよ。</line>
+    </dialogue>
+    <dialogue id="44">
+      <name>ソフィー</name>
+      <line>それさ、別れちゃえば？</line>
+    </dialogue>
+    <dialogue id="45">
+      <name>メアリー</name>
+      <line>そりゃ入らなくなるから128にしてとは言ったけど、だから今回だけとは言ってないんだけどさ、だったら聞けばいいじゃん。全部か、今回だけか。</line>
+    </dialogue>
+    <dialogue id="46">
+      <name>ソフィー</name>
+      <line>うん、だから、別れちゃえば？</line>
+    </dialogue>
+    <dialogue id="47">
+      <name>メアリー</name>
+      <line>そりゃさ、気を利かせてやってくれたっていうのは分ってるんだけど。他にも取り込んでないCDあるから。あと正直違い分かんないしね。160と128。ていうか何言ってるか分かればいい訳だからね。きみまろだから。</line>
+    </dialogue>
+    <dialogue id="48">
+      <name>ソフィー</name>
+      <line>え、ちょっと待って。今まで入れてたのも、全部きみまろなの？</line>
+    </dialogue>
+    <dialogue id="49">
+      <name>メアリー</name>
+      <line>今まで入れてたのが、きみまろ。今回入れたのが、音楽。ゲームの。</line>
+    </dialogue>
+    <dialogue id="50">
+      <name>ソフィー</name>
+      <line>え、いや、それ、何も問題ないんじゃん。</line>
+    </dialogue>
+    <dialogue id="51">
+      <name>メアリー</name>
+      <line>うん、で私もそれでいいのかもって思って、だからそんなに怒ってないんだよ。だからこの方が良いってちゃんと説明してくれればいいじゃん。でも何か勝手にやったからとか言って何か謝るからさ。謝るくらいならやんなきゃいいって言ったのね。</line>
+    </dialogue>
+    <dialogue id="52">
+      <name>ソフィー</name>
+      <line>うん、だからもう別れよう。どっちが悪いにしても。</line>
+    </dialogue>
+    <dialogue id="53">
+      <name>メアリー</name>
+      <line>だからそういう問題じゃないじゃん。だって別れるのは結構大変じゃん。寂しくなるし。でもピーターが、ちゃんと私の気持ちを分かろうとしてくれれば、それで済む話でしょ。</line>
+    </dialogue>
+    <dialogue id="54">
+      <name>ソフィー</name>
+      <line>それは、お互い様なんじゃないの？</line>
+    </dialogue>
+    <dialogue id="55">
+      <name>メアリー</name>
+      <line>違うじゃん。そりゃ相手の気持ちが分からない時もあるけど、でも私は分かろうとしてるから。ピーターは、分からないんじゃなくて分かろうとしてないんだから。</line>
+    </dialogue>
+    <dialogue id="56">
+      <name>ソフィー</name>
+      <line>別れるのが一番いいって。楽よ、男いないと。メアリーさあ、あんた今ネットでちょっと人気出てきてるんだからさあ、もう男がいるって時点で本当は駄目なんだからね。私なんか敢えて男作らないようにしてるのに。</line>
+    </dialogue>
+    <dialogue id="57">
+      <name>メアリー</name>
+      <line>え、ソフィーそこまでやってるんだ…。</line>
+    </dialogue>
+    <dialogue id="58">
+      <name>ソフィー</name>
+      <line>やるよそりゃ。なのに何であんたの方が人気あるの？ イイネもたくさんついてるし。だってただゲームやって動画上げてるだけでしょ？</line>
+    </dialogue>
+    <dialogue id="59">
+      <name>メアリー</name>
+      <line>え、ソフィー知らないの？ 私、足ゲーマーだよ。</line>
+    </dialogue>
+    <dialogue id="60">
+      <name>ソフィー</name>
+      <line>え、何何？ 足ゲーマー？</line>
+    </dialogue>
+    <dialogue id="61">
+      <name>メアリー</name>
+      <line>うん。</line>
+    </dialogue>
+    <dialogue id="62">
+      <name>ソフィー</name>
+      <line>足でゲームすんの？</line>
+    </dialogue>
+    <dialogue id="63">
+      <name>メアリー</name>
+      <line>うん。プレステでダンス・ダンス・レボリューションのコントローラあったでしょ。あれでゲットバスとかクリアしてたんだよ。</line>
+    </dialogue>
+    <dialogue id="64">
+      <name>ソフィー</name>
+      <line>いや無理でしょ。ていうかそんなの分かんないじゃん。ゲーム画面しかアップしてないんだから。</line>
+    </dialogue>
+    <dialogue id="65">
+      <name>メアリー</name>
+      <line>だって、脚見せるの恥ずかしいんだもん。</line>
+    </dialogue>
+    <dialogue id="66">
+      <name>ソフィー</name>
+      <line>え～、それであんなにイイネつくんだ。私もやろっかな、足ゲーマー。やろう。そうだ私流行らそうこれ。</line>
+    </dialogue>
+    <dialogue id="67">
+      <name>メアリー</name>
+      <line>それよりどうしよう、ピーター。</line>
+    </dialogue>
+    <dialogue id="68">
+      <name>ソフィー</name>
+      <line>だからもう別れた方がいいんだって。</line>
+    </dialogue>
+    <dialogue id="69">
+      <name>メアリー</name>
+      <line>ちょっとソフィー人の話聞いてた？</line>
+    </dialogue>
+    <dialogue id="70">
+      <name>ソフィー</name>
+      <line>あ、ニュースがあるよ。</line>
+    </dialogue>
+    <dialogue id="71">
+      <name>メアリー</name>
+      <line>って今それ自分で見に行ったんじゃん。</line>
+    </dialogue>
+    <dialogue id="72">
+      <name>ソフィー</name>
+      <line>人の気持ちなんてね、結局分からんのよ。分かろうとしても、しなくても。</line>
+    </dialogue>
+    <dialogue id="73">
+      <name>メアリー</name>
+      <line>じゃあさ、ネットの皆はさ、何で私が足でゲームしてるって信じてんのかな。</line>
+    </dialogue>
+    <dialogue id="74">
+      <name>ソフィー</name>
+      <line>そりゃ、本当だったら面白いからでしょ。</line>
+    </dialogue>
+    <dialogue id="75">
+      <name>メアリー</name>
+      <line>本当だよ。</line>
+    </dialogue>
+    <dialogue id="76">
+      <name>ソフィー</name>
+      <line>えー、これこの近くじゃん。なんか凶暴なサルがうろついてるとかって…。</line>
+    </dialogue>
+    <dialogue id="77">
+      <name>メアリー</name>
+      <line>サル？ え、何、サルのニュース見てたの？</line>
+    </dialogue>
+    <dialogue id="78">
+      <name>ソフィー</name>
+      <line>うん、この辺に凶暴なサルがうろついてるんだって。危ないから場所変えて話す？</line>
+    </dialogue>
+    <dialogue id="79">
+      <name>メアリー</name>
+      <line>はぁ…。今日はもういいや。</line>
+    </dialogue>
+    <dialogue id="80">
+      <name>ソフィー</name>
+      <line>本当に？ 私全然相談乗るけど。</line>
+    </dialogue>
+    <dialogue id="81">
+      <name>メアリー</name>
+      <line>大丈夫。ありがと。</line>
+    </dialogue>
+    <dialogue id="82">
+      <name>ソフィー</name>
+      <line>あそう。全然相談乗るけどね、うん。じゃあね。</line>
+    </dialogue>
+    <direction id="83">ソフィー、去る。</direction>
+    <h1 id="84">サル</h1>
+    <direction id="85">暗転。がさがさと素早く動く生き物の音。</direction>
+    <dialogue id="86">
+      <name>メアリー</name>
+      <line>きゃっ。</line>
+    </dialogue>
+    <direction id="87">薄明かり。</direction>
+    <dialogue id="88">
+      <name>メアリー</name>
+      <line>あれ、鞄がない。どこいった鞄。かばんかばん…。</line>
+    </dialogue>
+    <direction id="89">何かと目が合う。ポケットからチョコを出す。</direction>
+    <dialogue id="90">
+      <name>メアリー</name>
+      <line>ほらこれ。これね、すっごくおいしいから。ほらほら。</line>
+    </dialogue>
+    <direction id="91">チョコで気を引いて生き物を捕まえる。それは小さなサル。メアリーの鞄を持っている。</direction>
+    <dialogue id="92">
+      <name>メアリー</name>
+      <line>捕まえた！ 何あんた。タヌキ？ チョコ食べるの？ 食べないの？ じゃあ私食べようかな。食べる？ 食べない？ もう、どっちよ。</line>
+    </dialogue>
+    <direction id="93">ピーターが来る。</direction>
+    <dialogue id="94">
+      <name>ピーター</name>
+      <line>え？</line>
+    </dialogue>
+    <dialogue id="95">
+      <name>メアリー</name>
+      <line>食べる？</line>
+    </dialogue>
+    <dialogue id="96">
+      <name>ピーター</name>
+      <line>食べ…る。</line>
+    </dialogue>
+    <dialogue id="97">
+      <name>メアリー</name>
+      <line>食べないじゃん。タヌキ食べないじゃん。</line>
+    </dialogue>
+    <dialogue id="98">
+      <name>ピーター</name>
+      <line>どうしたの、その…タヌキ。</line>
+    </dialogue>
+    <dialogue id="99">
+      <name>メアリー</name>
+      <line>ひったくり。ていうかもう取り返したからもういいんだけど。ほら。…ほら、もう行っていいよ。</line>
+    </dialogue>
+    <direction id="100">逃がそうとするが動かない。見守る二人。</direction>
+    <dialogue id="101">
+      <name>メアリー</name>
+      <line>あそっか、この辺に放さない方がいいのか。なんかこの辺に、凶暴なサルがいるんだって。</line>
+    </dialogue>
+    <dialogue id="102">
+      <name>ピーター</name>
+      <line>ふうん。じゃあ取り敢えず、うち行く？</line>
+    </dialogue>
+    <dialogue id="103">
+      <name>メアリー</name>
+      <line>うん。</line>
+    </dialogue>
+    <direction id="104">再びサルを持って、二人少し歩く。</direction>
+    <dialogue id="105">
+      <name>ピーター</name>
+      <line>がちゃ。</line>
+    </dialogue>
+    <dialogue id="106">
+      <name>メアリー</name>
+      <line>おじゃましまーす。</line>
+    </dialogue>
+    <direction id="107">部屋に上がって一旦落ち着いて、</direction>
+    <dialogue id="108">
+      <name>メアリー</name>
+      <line>じゃあ、どこに放そうか。</line>
+    </dialogue>
+    <dialogue id="109">
+      <name>ピーター</name>
+      <line>その凶暴なサルっていうのはさ、…あ、ニュース見りゃいいのか。</line>
+    </dialogue>
+    <dialogue id="110">
+      <name>メアリー</name>
+      <line>…ピーターってさあ、たまに私の言った事聞いてない時あるよね。</line>
+    </dialogue>
+    <dialogue id="111">
+      <name>ピーター</name>
+      <line>え？ あ、こないだの？ あれは、聞いてたんだけど、でも多分全部するって事だと思って、だから全部しちゃったんだけど、だから戻したじゃん、後で。160に。</line>
+    </dialogue>
+    <dialogue id="112">
+      <name>メアリー</name>
+      <line>え、戻したの？ また160になってんのこれ？</line>
+    </dialogue>
+    <dialogue id="113">
+      <name>ピーター</name>
+      <line>うん。前から入ってたやつは。</line>
+    </dialogue>
+    <dialogue id="114">
+      <name>メアリー</name>
+      <line>じゃあこれ、きみまろだけ160になってるんだ今。で次他の入れようとしてもまたいっぱいになってるんだ。</line>
+    </dialogue>
+    <dialogue id="115">
+      <name>ピーター</name>
+      <line>俺さあ、ずっと思ってたんだけどさあ、これ、タヌキじゃないんじゃないの？</line>
+    </dialogue>
+    <direction id="116">携帯のニュースの画面を見せる。</direction>
+    <dialogue id="117">
+      <name>ピーター</name>
+      <line>危険だから近づかないようにってあるけど。</line>
+    </dialogue>
+    <direction id="118">二人、サルを床に置いて警戒しながら、</direction>
+    <dialogue id="119">
+      <name>メアリー</name>
+      <line>じゃあ次何か入れる時、またいっぱいで入らないって事？</line>
+    </dialogue>
+    <dialogue id="120">
+      <name>ピーター</name>
+      <line>それは、その時考えるって…。</line>
+    </dialogue>
+    <dialogue id="121">
+      <name>メアリー</name>
+      <line>じゃ私が悪いの？</line>
+    </dialogue>
+    <dialogue id="122">
+      <name>ピーター</name>
+      <line>いや、別に誰も悪くない。</line>
+    </dialogue>
+    <dialogue id="123">
+      <name>メアリー</name>
+      <line>だよね。私が謝る事じゃないよね。</line>
+    </dialogue>
+    <dialogue id="124">
+      <name>ピーター</name>
+      <line>こいつさあ、そんなに凶暴じゃないんじゃないの？</line>
+    </dialogue>
+    <direction id="125">暫く突いたりしてから、警戒を解き膝に乗せる。</direction>
+    <dialogue id="126">
+      <name>メアリー</name>
+      <line>あ、そうだ。チョコあるよ。ピーターどっちがいい？</line>
+    </dialogue>
+    <dialogue id="127">
+      <name>ピーター</name>
+      <line>えっとね…。</line>
+    </dialogue>
+    <direction id="128">サルが片方のチョコの方を向く。</direction>
+    <dialogue id="129">
+      <name>ピーター</name>
+      <line>あ。今こっちがいいって思ったら、何か、こいつ…。</line>
+    </dialogue>
+    <dialogue id="130">
+      <name>メアリー</name>
+      <line>自分でやったんでしょ。</line>
+    </dialogue>
+    <dialogue id="131">
+      <name>ピーター</name>
+      <line>やってないやってない。ちょっと持ってみて。</line>
+    </dialogue>
+    <direction id="132">メアリーにサルを持たせ、</direction>
+    <dialogue id="133">
+      <name>ピーター</name>
+      <line>メアリーどっちがいい？</line>
+    </dialogue>
+    <dialogue id="134">
+      <name>メアリー</name>
+      <line>えっと…。</line>
+    </dialogue>
+    <direction id="135">サルが片方のチョコの方を向く。</direction>
+    <dialogue id="136">
+      <name>メアリー</name>
+      <line>あっ。…この子、人の好みが分かるのかな。</line>
+    </dialogue>
+    <dialogue id="137">
+      <name>ピーター</name>
+      <line>なんかさあ、ネットで有名人の好み当てて景品もらえるサイトとかなかったっけ？</line>
+    </dialogue>
+    <dialogue id="138">
+      <name>メアリー</name>
+      <line>あるよ。ちょっと待って。…これ。今日は、ドリュー・バリモアだって。えっと、１問目は、ジャスティンとエリオット、どっちが好き？</line>
+    </dialogue>
+    <dialogue id="139">
+      <name>ピーター</name>
+      <line>ジャスティンでしょ。旦那だもん。</line>
+    </dialogue>
+    <direction id="140">サルが『エリオット』の方を向く。</direction>
+    <dialogue id="141">
+      <name>ピーター</name>
+      <line>え…。</line>
+    </dialogue>
+    <dialogue id="142">
+      <name>メアリー</name>
+      <line>じゃあ、取り敢えず、エリオットで。</line>
+    </dialogue>
+    <direction id="143">正解となる。</direction>
+    <dialogue id="144">
+      <name>ピーター</name>
+      <line>エリオットって『E.T.』の主人公じゃなかったっけ？</line>
+    </dialogue>
+    <dialogue id="145">
+      <name>メアリー</name>
+      <line>２問目は、シャネルとルイ・ヴィトン、どっちが好き？</line>
+    </dialogue>
+    <dialogue id="146">
+      <name>ピーター</name>
+      <line>シャネルでしょ。だって旦那シャネルの家系だもん。</line>
+    </dialogue>
+    <dialogue id="147">
+      <name>メアリー</name>
+      <line>でも旦那より『E.T.』の子役の方が好きなんだよね。</line>
+    </dialogue>
+    <direction id="148">サル、『ルイ・ヴィトン』の方を向く。『ルイ・ヴィトン』を選ぶと正解となる。</direction>
+    <dialogue id="149">
+      <name>ピーター</name>
+      <line>すごいな、色々と。</line>
+    </dialogue>
+    <dialogue id="150">
+      <name>メアリー</name>
+      <line>次行くよ。えっと、キスとセックス、どっちが好き？</line>
+    </dialogue>
+    <dialogue id="151">
+      <name>ピーター</name>
+      <line>キスでしょ。ドリュー・バリモアと言ったらキスでしょ。</line>
+    </dialogue>
+    <direction id="152">サル、『セックス』の方を向く。正解。</direction>
+    <dialogue id="153">
+      <name>二人</name>
+      <line>う～ん。</line>
+    </dialogue>
+    <direction id="154">画面に『マリファナとコカイン、どっちが好き？』と表示される。</direction>
+    <dialogue id="155">
+      <name>ピーター</name>
+      <line>そういえばさ、入れてた音楽って『ドリクエ』のだよね？</line>
+    </dialogue>
+    <dialogue id="156">
+      <name>メアリー</name>
+      <line>うん。面白いよ、『ドリクエ』。ピーターもやれば？</line>
+    </dialogue>
+    <direction id="157">サルがピクピク動いている。暗転。</direction>
+    <h1 id="158">ローザとアッシュ</h1>
+    <direction id="159">スクリーンに写真が映し出される。<br />ぎこちない笑顔のアッシュと、背後に観客。</direction>
+    <dialogue id="160">
+      <name>アッシュ</name>
+      <line>で、そのクイズはさあ、全問正解したの？</line>
+    </dialogue>
+    <dialogue id="161">
+      <name>ローザ</name>
+      <line>うん。全問正解して、景品もらえる事になって、また二人いい雰囲気になったのよ。</line>
+    </dialogue>
+    <dialogue id="162">
+      <name>アッシュ</name>
+      <line>じゃあ誤解は解けたんだ。</line>
+    </dialogue>
+    <dialogue id="163">
+      <name>ローザ</name>
+      <line>ううん。解けないよ。いい雰囲気になっただけ。</line>
+    </dialogue>
+    <dialogue id="164">
+      <name>アッシュ</name>
+      <line>だよな。守護霊の話がまだだし。ていうかこの後ろに写ってるのが守護霊なの？ え、多くない？ ていうか誰の守護霊だよ。</line>
+    </dialogue>
+    <dialogue id="165">
+      <name>ローザ</name>
+      <line>まあ40人くらいかな。誰のっていうか、私たち皆を悪い事から守ってくれてるの。訓練すれば見えるようになるよ。</line>
+    </dialogue>
+    <direction id="166">ローザ、アッシュに拝むようなポーズをさせて、</direction>
+    <dialogue id="167">
+      <name>ローザ</name>
+      <line>見えた？ 見えた？</line>
+    </dialogue>
+    <dialogue id="168">
+      <name>アッシュ</name>
+      <line>う～ん、いや見えないよ。ていうか別に見たくねえし。</line>
+    </dialogue>
+    <dialogue id="169">
+      <name>ローザ</name>
+      <line>アッシュも、見えるようになっといた方がいいよ。</line>
+    </dialogue>
+    <dialogue id="170">
+      <name>アッシュ</name>
+      <line>なんでだよ。</line>
+    </dialogue>
+    <dialogue id="171">
+      <name>ローザ</name>
+      <line>それはね、その時が来れば分かるから。絶対に見えるようになっといた方がいいから。</line>
+    </dialogue>
+    <dialogue id="172">
+      <name>アッシュ</name>
+      <line>もういいよ。それよりさあ、パパとママはその後どうなったんだよ。</line>
+    </dialogue>
+    <dialogue id="173">
+      <name>ローザ</name>
+      <line>うん、その時はハッピーになったように見えたんだけどね、その後が大変だったのよ。ちょうど、私が二人に出会った日なんだけど。</line>
+    </dialogue>
+    <h1 id="174">ピザ・ビッチ</h1>
+    <direction id="175">一週間後。<br />メアリーがサルと遊んでいる。そこへピーターが帰ってくる。</direction>
+    <dialogue id="176">
+      <name>メアリー</name>
+      <line>あ、おかえり。</line>
+    </dialogue>
+    <dialogue id="177">
+      <name>ピーター</name>
+      <line>こないだのクイズの懸賞、当たったよ。連絡きた。</line>
+    </dialogue>
+    <dialogue id="178">
+      <name>メアリー</name>
+      <line>うそ。すご～い。ねえ、ピザ頼もうよ。</line>
+    </dialogue>
+    <dialogue id="179">
+      <name>ピーター</name>
+      <line>ピザ、いいね。 頼んだこと無いけど。</line>
+    </dialogue>
+    <dialogue id="180">
+      <name>メアリー</name>
+      <line>私もない。頼もう頼もう。電話すればいいんでしょ。</line>
+    </dialogue>
+    <dialogue id="181">
+      <name>ピーター</name>
+      <line>ちょっと待って。…あった。これでいいの？『ピザ・ビッチ』？</line>
+    </dialogue>
+    <dialogue id="182">
+      <name>メアリー</name>
+      <line>うん、いいんじゃない？</line>
+    </dialogue>
+    <dialogue id="183">
+      <name>ピーター</name>
+      <line>あなたのビッチがピザをお届け。食べさせサービスもあるよ…。</line>
+    </dialogue>
+    <dialogue id="184">
+      <name>メアリー</name>
+      <line>…うん、いいんじゃない？ この一番お薦めのでいいじゃん。</line>
+    </dialogue>
+    <dialogue id="185">
+      <name>ピーター</name>
+      <line>クアトロ・フォルマッジオ・エ・セディチ・ポモドーリ…。４種類のチーズと、16種類のトマトだって。じゃあ、これにしよっか。</line>
+    </dialogue>
+    <direction id="186">サルが頷く。それを見てメアリーも頷く。<br />ピーター、電話する。</direction>
+    <dialogue id="187">
+      <name>ピーター</name>
+      <line>もしもし。えっと、初めてなんですけど。ピーターです。あ、はい。ピーターって呼んでもらって大丈夫です。いえ、二人です。今から。え、場所分かるんですか？ あ、じゃあよろしくお願いします。</line>
+    </dialogue>
+    <dialogue id="188">
+      <name>メアリー</name>
+      <line>ちょっと、注文は？</line>
+    </dialogue>
+    <dialogue id="189">
+      <name>ピーター</name>
+      <line>ああ、済みません。注文したいんですけど。ピザで。えっと、クアトロ…、ああそれです。食べさせサービス？ えっと…。</line>
+    </dialogue>
+    <dialogue id="190">
+      <name>メアリー</name>
+      <line>いいんじゃない？</line>
+    </dialogue>
+    <dialogue id="191">
+      <name>ピーター</name>
+      <line>あ、じゃあお願いします。はい、食べさせサービス有りで。あ、切れた。</line>
+    </dialogue>
+    <dialogue id="192">
+      <name>メアリー</name>
+      <line>…できたの？ 注文。</line>
+    </dialogue>
+    <dialogue id="193">
+      <name>ピーター</name>
+      <line>うん。多分、できたと思う。</line>
+    </dialogue>
+    <dialogue id="194">
+      <name>メアリー</name>
+      <line>ふうん。ピーター、ピザ食べたこと無いんだ。</line>
+    </dialogue>
+    <dialogue id="195">
+      <name>ピーター</name>
+      <line>うん。</line>
+    </dialogue>
+    <dialogue id="196">
+      <name>メアリー</name>
+      <line>私も。へへ。…ねえ、さっきどこ行ってたの？</line>
+    </dialogue>
+    <dialogue id="197">
+      <name>ピーター</name>
+      <line>ああ、アランのとこ。</line>
+    </dialogue>
+    <dialogue id="198">
+      <name>メアリー</name>
+      <line>アランってゲームの開発してる人だっけ？</line>
+    </dialogue>
+    <dialogue id="199">
+      <name>ピーター</name>
+      <line>うん。なんか最近『ドリクエ』の開発チームに入ったらしいよ。</line>
+    </dialogue>
+    <dialogue id="200">
+      <name>メアリー</name>
+      <line>えーマジで？ え、私の方が『ドリクエ』やってるのに何でピーターの友達が開発してんの？ あ、じゃあさ、今度アランに会ったらさ、ちゃんとクリアできるようにしてって言っといてよ。</line>
+    </dialogue>
+    <dialogue id="201">
+      <name>ピーター</name>
+      <line>え、クリア、できないの？</line>
+    </dialogue>
+    <dialogue id="202">
+      <name>メアリー</name>
+      <line>分かんないけど、何かラスボスとかいないんだよね。しょうがないから今は取り敢えずイイネ集めてるけど。</line>
+    </dialogue>
+    <dialogue id="203">
+      <name>ピーター</name>
+      <line>へえ～。じゃあ次いつ会うか分かんないしメールしとくよ。</line>
+    </dialogue>
+    <direction id="204">ピーター、メールする。</direction>
+    <dialogue id="205">
+      <name>メアリー</name>
+      <line>そういえば景品何だったの？</line>
+    </dialogue>
+    <dialogue id="206">
+      <name>ピーター</name>
+      <line>何か、芸術作品。まあ何か、油絵みたいな。</line>
+    </dialogue>
+    <dialogue id="207">
+      <name>メアリー</name>
+      <line>なんだ、絵かあ。</line>
+    </dialogue>
+    <dialogue id="208">
+      <name>ピーター</name>
+      <line>一応、二つあって選んでくださいって言われたんだけど、そっちの方が価値がありそうだったんで。</line>
+    </dialogue>
+    <dialogue id="209">
+      <name>メアリー</name>
+      <line>ふうん。もう一つは？</line>
+    </dialogue>
+    <dialogue id="210">
+      <name>ピーター</name>
+      <line>チョコレート。10年分。</line>
+    </dialogue>
+    <dialogue id="211">
+      <name>メアリー</name>
+      <line>え、絶対そっちじゃん。</line>
+    </dialogue>
+    <dialogue id="212">
+      <name>ピーター</name>
+      <line>でもすごい価値があるんだよ。ほらこの頁で紹介されてるんだけどさ、300万イイネがついてるんだよ。</line>
+    </dialogue>
+    <dialogue id="213">
+      <name>メアリー</name>
+      <line>何この素人が修復したフレスコ画みたいな絵。え、私がチョコ好きなの知ってるよね？</line>
+    </dialogue>
+    <dialogue id="214">
+      <name>ピーター</name>
+      <line>知ってるけど…じゃあ、変更できるか聞いてみようか。</line>
+    </dialogue>
+    <dialogue id="215">
+      <name>メアリー</name>
+      <line>ちょっと待ってよ。ピーターはそのフレスコ画が欲しい訳？</line>
+    </dialogue>
+    <dialogue id="216">
+      <name>ピーター</name>
+      <line>イイネがたくさんついてるからさ、メアリー最近よくイイネを集めてるしと思って。</line>
+    </dialogue>
+    <dialogue id="217">
+      <name>メアリー</name>
+      <line>じゃ私が悪いの？</line>
+    </dialogue>
+    <dialogue id="218">
+      <name>ピーター</name>
+      <line>いや、別に誰も悪くない。</line>
+    </dialogue>
+    <dialogue id="219">
+      <name>メアリー</name>
+      <line>だよね。私が謝る事じゃないよね。</line>
+    </dialogue>
+    <direction id="220">呼び鈴が鳴る。</direction>
+    <dialogue id="221">
+      <name>ローザ</name>
+      <line>ピザ・ビッチで～す。</line>
+    </dialogue>
+    <direction id="222">セクシーな恰好のローザがピザを持って入ってくる。</direction>
+    <dialogue id="223">
+      <name>メアリー</name>
+      <line>ピーターはさあ、普段私が何考えてるかとか、気にしてる…よね？</line>
+    </dialogue>
+    <dialogue id="224">
+      <name>ピーター</name>
+      <line>そりゃ、まあ、ある程度は。</line>
+    </dialogue>
+    <dialogue id="225">
+      <name>メアリー</name>
+      <line>じゃあ私が何考えてるかっていうのも込みで、私と付き合ってるの？ もしかしてさあ、丁度いいタイミングで出会って、丁度いい年頃で、見た目も性格も丁度いい女だったら、誰でも良かったんじゃないの？</line>
+    </dialogue>
+    <dialogue id="226">
+      <name>ピーター</name>
+      <line>まあ、丁度いい人だったら付き合いたいと思うけど。</line>
+    </dialogue>
+    <dialogue id="227">
+      <name>メアリー</name>
+      <line>じゃあ誰でもいいって事？</line>
+    </dialogue>
+    <dialogue id="228">
+      <name>ピーター</name>
+      <line>いや、そうはならないでしょ。</line>
+    </dialogue>
+    <direction id="229">呼び鈴が鳴る。</direction>
+    <dialogue id="230">
+      <name>ソフィー</name>
+      <line>おじゃましまーす。</line>
+    </dialogue>
+    <direction id="231">二人はソフィーを無視する。</direction>
+    <dialogue id="232">
+      <name>メアリー</name>
+      <line>え、何ピザ屋さんの方ちらちら見てんの？</line>
+    </dialogue>
+    <dialogue id="233">
+      <name>ピーター</name>
+      <line>ああ、ピザ、来てるなあと思って。</line>
+    </dialogue>
+    <dialogue id="234">
+      <name>ソフィー</name>
+      <line>あ、やっぱりピザの匂いだったんだ～。</line>
+    </dialogue>
+    <dialogue id="235">
+      <name>メアリー</name>
+      <line>そんな事言ってさあ、ピーターさあ、本当はこういうのが好きなんじゃないの？</line>
+    </dialogue>
+    <dialogue id="236">
+      <name>ピーター</name>
+      <line>いやこの人今来たばっかだし。ていうか失礼だよ、『こういうの』って…。</line>
+    </dialogue>
+    <dialogue id="237">
+      <name>メアリー</name>
+      <line>これ持って。ピーターの気持ち、確かめる。</line>
+    </dialogue>
+    <direction id="238">メアリー、ピーターにサルを持たせる。</direction>
+    <dialogue id="239">
+      <name>メアリー</name>
+      <line>いくよ。私とこのピザ屋さん、どっちがいい？</line>
+    </dialogue>
+    <direction id="240">サルが微妙な反応をする。</direction>
+    <dialogue id="241">
+      <name>ソフィー</name>
+      <line>あれ、そのサルもしかして…。やっぱり、パラメーターズじゃん。</line>
+    </dialogue>
+    <dialogue id="242">
+      <name>メアリー</name>
+      <line>ソフィー、何勝手に上がりこんでんの？</line>
+    </dialogue>
+    <dialogue id="243">
+      <name>ソフィー</name>
+      <line>おじゃましますって言ったじゃん。やっぱりここにいたんだ。私あれから色々調べたんだけどさ、それね、そうやって使うんじゃないんだよ。</line>
+    </dialogue>
+    <dialogue id="244">
+      <name>メアリー</name>
+      <line>え、どういうこと？</line>
+    </dialogue>
+    <dialogue id="245">
+      <name>ソフィー</name>
+      <line>カメラでさ、スマイルシャッターってあるでしょ。あんな感じ。あと呪文があんの。ちょっと貸して。</line>
+    </dialogue>
+    <direction id="246">ソフィー、サルをひったくって、ピーターの方へ向けて構える。急にものものしい雰囲気になる。</direction>
+    <dialogue id="247">
+      <name>ソフィー</name>
+      <line>パラメーターズ様、パラメーターズ様、ピーターはメアリーの事をどれくらい好きですか。</line>
+    </dialogue>
+    <direction id="248">雷鳴とともに数字（58）がうかびあがる。</direction>
+    <dialogue id="249">
+      <name>ソフィー</name>
+      <line>わ、すご～い。本当に出るんだ。じゃあ次、名前は？</line>
+    </dialogue>
+    <dialogue id="250">
+      <name>ローザ</name>
+      <line>ローザよ。うふっ。</line>
+    </dialogue>
+    <dialogue id="251">
+      <name>ソフィー</name>
+      <line>パラメーターズ様、パラメーターズ様、ピーターはローザの事をどれくらい好きですか。</line>
+    </dialogue>
+    <direction id="252">雷鳴とともに数字（61）がうかびあがる。</direction>
+    <dialogue id="253">
+      <name>メアリー</name>
+      <line>ど、ど、どういうこと…。</line>
+    </dialogue>
+    <dialogue id="254">
+      <name>ソフィー</name>
+      <line>このサルね、人の気持ちを数字で表せんの。でも初めて見たわ。そうだ私流行らそうこれ。</line>
+    </dialogue>
+    <dialogue id="255">
+      <name>メアリー</name>
+      <line>私が60点以下ってどういうことよ。３点も低いの、私の方が。たしかにローザの方が恰好も色っぽいしピザも持ってるけどさ、それ入れてもせいぜい２点でしょ。３点差ってどういうことよっ！</line>
+    </dialogue>
+    <dialogue id="256">
+      <name>ピーター</name>
+      <line>いや、ちょっと、１点がどれくらいの事なのか分かんないんだけど。</line>
+    </dialogue>
+    <dialogue id="257">
+      <name>メアリー</name>
+      <line>ピーター、ひどい…。</line>
+    </dialogue>
+    <direction id="258">メアリー、泣きながら出て行く。追いかけるピーター。しかしメアリーに押されて戻ってくる。<br />メアリーは鞄から鍵を出し、投げつけて再び出て行く。ソフィーがサルを持って追いかける。</direction>
+    <direction id="259">ピーター、暫し呆然とし、膝を落とす。<br />ローザ、ピーターにピザを食べさせる。<br />暗転。</direction>
+    <h1 id="260">クリエイター</h1>
+    <direction id="261">一週間後。<br />部屋でひとりゲームをしているピーター。なぜかローザが横に座っている。フレスコ画のような絵が飾ってある。<br />呼び鈴が鳴る。</direction>
+    <dialogue id="262">
+      <name>アラン</name>
+      <line>お邪魔します。</line>
+    </dialogue>
+    <dialogue id="263">
+      <name>ピーター</name>
+      <line>ああ、アラン…。</line>
+    </dialogue>
+    <dialogue id="264">
+      <name>アラン</name>
+      <line>『ドリクエ』ですか？</line>
+    </dialogue>
+    <dialogue id="265">
+      <name>ピーター</name>
+      <line>うん。でもこれさ、クリアするとかそういうゲームじゃないよね。</line>
+    </dialogue>
+    <dialogue id="266">
+      <name>アラン</name>
+      <line>ずっと遊べるっていうのがウリですから、クリアという概念は無いですね。</line>
+    </dialogue>
+    <dialogue id="267">
+      <name>ピーター</name>
+      <line>これ人からイイネをもらって、増えたとか減ったとかそういうのを楽しむゲームでしょ。</line>
+    </dialogue>
+    <dialogue id="268">
+      <name>アラン</name>
+      <line>ええ。でも実は、クリア出来るようにしようって話もあるんですよ。このゲーム、以前はイイネじゃなくてゴールドっていうのを集めるゲームだったんです。</line>
+    </dialogue>
+    <dialogue id="269">
+      <name>ピーター</name>
+      <line>ゴールド？</line>
+    </dialogue>
+    <dialogue id="270">
+      <name>アラン</name>
+      <line>プレイヤー同士でつけあうんじゃなくて、モンスターを殺して奪ったり、他人の家から盗んだりして手に入れるんですけどね。これをたくさん集めれば、どんな物とでも交換できるんです。</line>
+    </dialogue>
+    <dialogue id="271">
+      <name>ピーター</name>
+      <line>え、ただの数字なのに物と交換できるの？。</line>
+    </dialogue>
+    <dialogue id="272">
+      <name>アラン</name>
+      <line>その世界ではそういうルールだったんです。ところが運営側がいくら調整しても一部のプレイヤーにばかりゴールドが集まってしまって、ほとんどのプレイヤーにとってはすごく暮らし難い世界だったんです。</line>
+    </dialogue>
+    <dialogue id="273">
+      <name>ピーター</name>
+      <line>ああそうか、それでイイネに変えたんだ。確かにな。もし現実世界にもそんなルールがあったら殺伐としそうだもんな。</line>
+    </dialogue>
+    <dialogue id="274">
+      <name>アラン</name>
+      <line>ゴールドをやめてイイネにして、今度こそ全てのプレイヤーが平等だと思えたんですけど、最近はプレイヤーの方が勝手に、イイネをゴールドみたいに取引するようになってしまって。</line>
+    </dialogue>
+    <dialogue id="275">
+      <name>ピーター</name>
+      <line>取引って、じゃあ良いと思ってなくてもイイネをつけたりするって事？</line>
+    </dialogue>
+    <dialogue id="276">
+      <name>アラン</name>
+      <line>そういう事です。いずれ欲と欺瞞に満ちた世界になってプレイヤーは離れていきますから、そうなる前に別の目標を持たせようって話です。どうせやめるんなら気持ちよくやめて欲しいじゃないですか。</line>
+    </dialogue>
+    <dialogue id="277">
+      <name>ピーター</name>
+      <line>別の目標って。</line>
+    </dialogue>
+    <dialogue id="278">
+      <name>アラン</name>
+      <line>月並みですけど、魔王を倒してハッピーエンドになるっていう、そんなシナリオを入れようかと</line>
+    </dialogue>
+    <dialogue id="279">
+      <name>ピーター</name>
+      <line>ハッピー…エンド…。</line>
+    </dialogue>
+    <dialogue id="280">
+      <name>アラン</name>
+      <line>はい。</line>
+    </dialogue>
+    <dialogue id="281">
+      <name>ピーター</name>
+      <line>ハッピーってさ、これ元々はイイネを集めるゲームだった訳じゃん。それが無くても、クリアさえすればハッピーになれるって事？</line>
+    </dialogue>
+    <dialogue id="282">
+      <name>アラン</name>
+      <line>そうですね。イイネは必要ないですね。その代わりプレイヤー同士協力する必要がありますけど。</line>
+    </dialogue>
+    <dialogue id="283">
+      <name>ピーター</name>
+      <line>ふうん。それでハッピーになれるんだ。…エンドは？</line>
+    </dialogue>
+    <dialogue id="284">
+      <name>アラン</name>
+      <line>へ？</line>
+    </dialogue>
+    <dialogue id="285">
+      <name>ピーター</name>
+      <line>そのハッピーが、エンドだっていう保証はあるの？</line>
+    </dialogue>
+    <dialogue id="286">
+      <name>アラン</name>
+      <line>えっと、まあ、そこでシナリオが終わりますからね…。</line>
+    </dialogue>
+    <dialogue id="287">
+      <name>ピーター</name>
+      <line>でもキャラクターにはさ、その後の人生がある訳じゃん。</line>
+    </dialogue>
+    <dialogue id="288">
+      <name>アラン</name>
+      <line>いえ、ないです。</line>
+    </dialogue>
+    <dialogue id="289">
+      <name>ピーター</name>
+      <line>死ぬんだ。</line>
+    </dialogue>
+    <dialogue id="290">
+      <name>アラン</name>
+      <line>死にませんよ。ていうか死んだらゲームオーバーです。</line>
+    </dialogue>
+    <dialogue id="291">
+      <name>ピーター</name>
+      <line>あのさ、目標があってそれをクリアしてハッピーになるのはいいよ。でもさ、そこで話を終わりにすればハッピーエンドなの？ それは無責任なんじゃないの？ だって実際ハッピーなんて大して続かないよ。そういう何かさ、この先の人生の漠然とした不安みたいなのを持ったままさ、話はここで終わりですって言ってさ、それでハッピーエンドとかもう、おかしいだろ。</line>
+    </dialogue>
+    <dialogue id="292">
+      <name>アラン</name>
+      <line>あの…、何かあったんですか？</line>
+    </dialogue>
+    <dialogue id="293">
+      <name>ピーター</name>
+      <line>いやだから、俺はそのキャラクターがその後どうなるかが気になるんだよ。ちゃんと最後までハッピーな人生を送れるのかどうか。</line>
+    </dialogue>
+    <dialogue id="294">
+      <name>アラン</name>
+      <line>最後までっていうのは</line>
+    </dialogue>
+    <dialogue id="295">
+      <name>ピーター</name>
+      <line>死ぬまでだよ。だってまだキャラクターの人生が残ってるのに、安心してゲームの外へ出て来れないだろ。</line>
+    </dialogue>
+    <dialogue id="296">
+      <name>アラン</name>
+      <line>でも死んだらゲームオーバーだしなぁ…。</line>
+    </dialogue>
+    <direction id="297">アラン、ようやくローザの存在が気になりだす。</direction>
+    <dialogue id="298">
+      <name>アラン</name>
+      <line>あの…、あなたがメアリーですか？</line>
+    </dialogue>
+    <dialogue id="299">
+      <name>ピーター</name>
+      <line>てめえ。</line>
+    </dialogue>
+    <direction id="300">ピーター、アランにつかみかかる。<br />ローザ、ピーターをなだめてピザを食べさせる。<br />ピーター、泣きながらピザを食べる。</direction>
+    <dialogue id="301">
+      <name>アラン</name>
+      <line>え、何すかこれ。</line>
+    </dialogue>
+    <dialogue id="302">
+      <name>ピーター</name>
+      <line>サルが…、サルが…。</line>
+    </dialogue>
+    <dialogue id="303">
+      <name>ローザ</name>
+      <line>パラメーターズっていう、変なサルがいてね、それのせいでメアリーと喧嘩しちゃったの。</line>
+    </dialogue>
+    <dialogue id="304">
+      <name>アラン</name>
+      <line>あの。</line>
+    </dialogue>
+    <dialogue id="305">
+      <name>ローザ</name>
+      <line>あ、私はローザ。うふっ。</line>
+    </dialogue>
+    <dialogue id="306">
+      <name>アラン</name>
+      <line>ピーターとはどういった…。</line>
+    </dialogue>
+    <dialogue id="307">
+      <name>ローザ</name>
+      <line>ん？ デリバリーだけど。</line>
+    </dialogue>
+    <dialogue id="308">
+      <name>アラン</name>
+      <line>あ、ああ。ああ…、あ、そうだ。そのサルって、ネットの番組に出てるやつじゃないですかね。今流行ってるみたいですよ。えっと…ほらこれ。『パラメーター・バトル・ショウ』。知ってます？</line>
+    </dialogue>
+    <dialogue id="309">
+      <name>ピーター</name>
+      <line>メ…メアリー…。</line>
+    </dialogue>
+    <dialogue id="310">
+      <name>アラン</name>
+      <line>えっ?!</line>
+    </dialogue>
+    <direction id="311">ソフィーとメアリーが登場（映像でも可）。ソフィーはサルを持っている。メアリーは手に全身タイツを持っている。</direction>
+    <dialogue id="312">
+      <name>ソフィー</name>
+      <line>今回もメアリーが勝ち抜きましたので、私とメアリーの両方にイイネをつけた人の中から抽選で、おいしいチョコレートを差し上げます。いや～、良く勝ちましたね。</line>
+    </dialogue>
+    <dialogue id="313">
+      <name>メアリー</name>
+      <line>そうですね。対戦相手のエディがバカだったので勝つ事ができました。</line>
+    </dialogue>
+    <dialogue id="314">
+      <name>ソフィー</name>
+      <line>バカですよね。最初に全身タイツ好きって宣言すれば勝ってた試合ですからね。何で嫌いって言っちゃったんでしょうね。</line>
+    </dialogue>
+    <dialogue id="315">
+      <name>メアリー</name>
+      <line>しかも私がチョコレート好きなの知らなかったよね。</line>
+    </dialogue>
+    <dialogue id="316">
+      <name>ソフィー</name>
+      <line>対戦相手の好みは予め調べておかないとね。でも全身タイツが好きというのは決して悪い事ではありませんので、皆さんこの事でエディをバカにしたりしないでくださいね。</line>
+    </dialogue>
+    <direction id="317">二人、引っ込む。</direction>
+    <dialogue id="318">
+      <name>アラン</name>
+      <line>どうやらサルを使って気持ちの強さを競うゲームのようですね。</line>
+    </dialogue>
+    <dialogue id="319">
+      <name>ピーター</name>
+      <line>なんて恐ろしいゲームなんだ…。</line>
+    </dialogue>
+    <dialogue id="320">
+      <name>アラン</name>
+      <line>負けた方は恥ずかしい思いをする上に、嘘つきという事になってしまいますからね。</line>
+    </dialogue>
+    <dialogue id="321">
+      <name>ピーター</name>
+      <line>俺、これに出るよ。</line>
+    </dialogue>
+    <dialogue id="322">
+      <name>アラン</name>
+      <line>えっ?!</line>
+    </dialogue>
+    <direction id="323">ピーター、飾ってある絵の方を見る。</direction>
+    <h1 id="324">パラメーター・バトル・ショウ</h1>
+    <direction id="325">一週間後。<br />番組の収録現場。ソフィーとメアリー、ピーター、アランがいる。ピーターは絵を持って来ている。</direction>
+    <dialogue id="326">
+      <name>ソフィー</name>
+      <line>はい。パラメーター・バトル・ショウの時間です。今日対戦するのはチャンピオンのメアリーと、挑戦者ピーターです。ピーターは何を持ってきましたか。</line>
+    </dialogue>
+    <dialogue id="327">
+      <name>ピーター</name>
+      <line>この絵を…。</line>
+    </dialogue>
+    <dialogue id="328">
+      <name>ソフィー</name>
+      <line>はい。メアリーはこの絵が好きだと思いますか。それとも嫌いだと思いますか。</line>
+    </dialogue>
+    <dialogue id="329">
+      <name>ピーター</name>
+      <line>そんなに好きじゃないと思うけど、でもこの絵にはイイネがたくさんついているので、そんなに嫌いにもなれないんじゃないかなあ、と。</line>
+    </dialogue>
+    <dialogue id="330">
+      <name>ソフィー</name>
+      <line>なるほど。メアリーは？</line>
+    </dialogue>
+    <direction id="331">メアリー、ピザボックスを出す。</direction>
+    <dialogue id="332">
+      <name>メアリー</name>
+      <line>これ。</line>
+    </dialogue>
+    <dialogue id="333">
+      <name>ソフィー</name>
+      <line>はい。ピーターはピザが好きだと思いますか、それとも嫌いだと思いますか。</line>
+    </dialogue>
+    <dialogue id="334">
+      <name>メアリー</name>
+      <line>分からないけど、多分好きだと思います。</line>
+    </dialogue>
+    <dialogue id="335">
+      <name>ソフィー</name>
+      <line>ではピーター、ピザが好きか嫌いか決めて下さい。</line>
+    </dialogue>
+    <dialogue id="336">
+      <name>ピーター</name>
+      <line>メアリー、もし俺が勝ったら、もうこんなサルの言う事を信じるのはやめてもらえないかな。</line>
+    </dialogue>
+    <dialogue id="337">
+      <name>アラン</name>
+      <line>いや、それは原理的に不可能ですよ。サルを信じないと勝ち負けが決まらない訳ですから。</line>
+    </dialogue>
+    <dialogue id="338">
+      <name>ソフィー</name>
+      <line>あ、付き添いの方はお静かに願います。</line>
+    </dialogue>
+    <dialogue id="339">
+      <name>ピーター</name>
+      <line>じゃあ、ピザは嫌いだって事にして勝ってみせるよ。</line>
+    </dialogue>
+    <dialogue id="340">
+      <name>ソフィー</name>
+      <line>ではピーターはピザが嫌いという事ですね。</line>
+    </dialogue>
+    <dialogue id="341">
+      <name>メアリー</name>
+      <line>本当に嫌いかも知れないじゃん。あ、待って。変える。もう一回、私でやってみて。それでこないだと違う数字が出たら、もうそのサルは信じない。</line>
+    </dialogue>
+    <dialogue id="342">
+      <name>アラン</name>
+      <line>なるほど。</line>
+    </dialogue>
+    <dialogue id="343">
+      <name>ソフィー</name>
+      <line>ではピーターはメアリーが好きという事ですね。メアリーはどうしますか。この絵が好きか嫌いか。</line>
+    </dialogue>
+    <dialogue id="344">
+      <name>ピーター</name>
+      <line>あ、俺も変えます。絵じゃなくて、ソフィーにします。</line>
+    </dialogue>
+    <dialogue id="345">
+      <name>ソフィー</name>
+      <line>え、私？ それはちょっとアレなんじゃないすか。それはちょっと、ねえ。</line>
+    </dialogue>
+    <dialogue id="346">
+      <name>メアリー</name>
+      <line>いいよ私は。ソフィーの事どれくらい好きかで。</line>
+    </dialogue>
+    <dialogue id="347">
+      <name>ソフィー</name>
+      <line>あ、じゃあ、好きって事でね。はい、では視聴者の方は投票をお願いします。メアリーが勝つと思ったら、私とメアリーにイイネを、ピーターが勝つと思ったら、私とピーターに、イイネをつけて下さい。</line>
+    </dialogue>
+    <dialogue id="348">
+      <name>アラン</name>
+      <line>ん？ どちらにしても、貴方にはイイネがつくんですね。</line>
+    </dialogue>
+    <dialogue id="349">
+      <name>ソフィー</name>
+      <line>あ、付き添いの方はお静かに願います。じゃあいきますよ。パラメーターズ様、パラメーターズ様、メアリーはソフィーの事をどれくらい好きですか。</line>
+    </dialogue>
+    <direction id="350">雷鳴とともに数字（60）がうかびあがる。</direction>
+    <dialogue id="351">
+      <name>ソフィー</name>
+      <line>60はそんなに悪くないですよね。何やかんや込み込みで60って事ですから。これはなかなかの点数が出ましたよ。さあそれでは挑戦者の番です。</line>
+    </dialogue>
+    <dialogue id="352">
+      <name>ピーター</name>
+      <line>こないだと違う数字が出ればいいんだよな。</line>
+    </dialogue>
+    <dialogue id="353">
+      <name>ソフィー</name>
+      <line>パラメーターズ様、パラメーターズ様、ピーターはメアリーの事をどれくらい好きですか。</line>
+    </dialogue>
+    <direction id="354">雷鳴とともに数字（58）がうかびあがる。</direction>
+    <dialogue id="355">
+      <name>ピーター</name>
+      <line>……。</line>
+    </dialogue>
+    <dialogue id="356">
+      <name>ソフィー</name>
+      <line>あ～、60行かなかったか～。60行かないとかなり厳しいですよね～。という訳で、今回もメアリーが勝ち抜きましたので、私とメアリーの両方にイイネをつけた人の中から抽選で、おいしいチョコレートを差し上げます。</line>
+    </dialogue>
+    <direction id="357">ソフィー、リモコンか何か操作して、</direction>
+    <dialogue id="358">
+      <name>ソフィー</name>
+      <line>はい、お疲れ様でした。</line>
+    </dialogue>
+    <dialogue id="359">
+      <name>メアリー</name>
+      <line>ピーター、私いい加減な気持ちの人とは付き合いたくない。ていうかもう男の人とは付き合わない。イイネを集めてネットで人気になりたい。ソフィーみたいに。ソフィーね、ネットで人気になるために男の人と付き合うの全部断ってるんだって。だからイイネもすごくついてるし。</line>
+    </dialogue>
+    <dialogue id="360">
+      <name>アラン</name>
+      <line>いえ、イイネがついているのはそれが理由ではないと思いますよ。</line>
+    </dialogue>
+    <dialogue id="361">
+      <name>メアリー</name>
+      <line>私は、ちゃんと人気になって、ちゃんと最後までハッピーでいたい。ピーターと一緒にいたらいつの間にか典型的な普通の人生になって終わりでしょ。<br />普通に結婚して、普通の家庭を築いて、お互いにプレゼント買い与えたり、ちょっと不仲になってみたり、それでも赤ん坊ができたらまた仲直りしたり、子供の成長が楽しみだったのに反抗期になって持て余したり、悩みの種だった子供が結婚するとなると寂しくなったり、孫が出来る事をこの世の最高の幸せみたいに思ったり、そんな典型的な普通の人生で、終わりたくないの。</line>
+    </dialogue>
+    <dialogue id="362">
+      <name>ピーター</name>
+      <line>そうか。分かったよ…。</line>
+    </dialogue>
+    <dialogue id="363">
+      <name>アラン</name>
+      <line>済みません、ちょっとそのサル見せてもらえますか。</line>
+    </dialogue>
+    <dialogue id="364">
+      <name>ソフィー</name>
+      <line>別に何も仕掛けとか無いけど。</line>
+    </dialogue>
+    <direction id="365">ソフィー、アランにサルを見せる。</direction>
+    <dialogue id="366">
+      <name>アラン</name>
+      <line>えっと、パラメーターズ様…。</line>
+    </dialogue>
+    <direction id="367">ソフィー、サルをひったくる。</direction>
+    <dialogue id="368">
+      <name>ソフィー</name>
+      <line>ちょっと何勝手にやってんの。</line>
+    </dialogue>
+    <dialogue id="369">
+      <name>アラン</name>
+      <line>どういう仕掛けなのかと思いまして。</line>
+    </dialogue>
+    <dialogue id="370">
+      <name>ソフィー</name>
+      <line>だから仕掛けとか無いって言ってんじゃん。生きてるんだからね、これ。…私もね、気になって調べたの。そしたら何だったと思う？ これね、人間なの。言葉を持たずに進化した、人間。</line>
+    </dialogue>
+    <dialogue id="371">
+      <name>アラン</name>
+      <line>ああ、なるほど。言葉を使う代わりに人の気持ちを直接読むんですね。</line>
+    </dialogue>
+    <dialogue id="372">
+      <name>ソフィー</name>
+      <line>飲み込み早いな。</line>
+    </dialogue>
+    <dialogue id="373">
+      <name>アラン</name>
+      <line>そういう進化の仕方もあるでしょうね。でもだからこそ、我々とは相容れない存在だとも思いますけど。</line>
+    </dialogue>
+    <dialogue id="374">
+      <name>ソフィー</name>
+      <line>え、何。じゃあもう使うなっていうの？ さっきからさあ、ちょいちょい喧嘩売ってるよね。</line>
+    </dialogue>
+    <dialogue id="375">
+      <name>アラン</name>
+      <line>いえそんなつもりは無いですけど。</line>
+    </dialogue>
+    <dialogue id="376">
+      <name>ソフィー</name>
+      <line>パラメーターズ様、パラメーターズ様、この人は私たちにどれくらいムカついていますか。</line>
+    </dialogue>
+    <direction id="377">雷鳴とともに数字（95）がうかびあがる。</direction>
+    <dialogue id="378">
+      <name>ソフィー</name>
+      <line>ムカついてんじゃん。</line>
+    </dialogue>
+    <dialogue id="379">
+      <name>アラン</name>
+      <line>いやあ、そんなつもりは…。</line>
+    </dialogue>
+    <dialogue id="380">
+      <name>ソフィー</name>
+      <line>もう帰って。今から別の番組やるから。ピーターも、ほら。</line>
+    </dialogue>
+    <dialogue id="381">
+      <name>ピーター</name>
+      <line>…メアリー、たしかに俺は普通かも知れないけど、でもだからって君を縛ったりはしない。君を縛っているのは、俺じゃないよ。</line>
+    </dialogue>
+    <dialogue id="382">
+      <name>メアリー</name>
+      <line>……。</line>
+    </dialogue>
+    <dialogue id="383">
+      <name>ソフィー</name>
+      <line>ほら早く、帰った帰った。</line>
+    </dialogue>
+    <direction id="384">ピーターとアラン、出て行く。</direction>
+    <h1 id="385">我慢の限界</h1>
+    <dialogue id="386">
+      <name>ソフィー</name>
+      <line>メアリーなんか疲れてる？ どうする？ 次の番組、やめる？</line>
+    </dialogue>
+    <dialogue id="387">
+      <name>メアリー</name>
+      <line>ううん、大丈夫。やろう。だってソフィー、宣伝してくれたんでしょ。</line>
+    </dialogue>
+    <dialogue id="388">
+      <name>ソフィー</name>
+      <line>したけどさ、無理しないでよ。</line>
+    </dialogue>
+    <dialogue id="389">
+      <name>メアリー</name>
+      <line>うん。だって、ただチョコレート食べておいしいとか言えばいいんでしょ。</line>
+    </dialogue>
+    <dialogue id="390">
+      <name>ソフィー</name>
+      <line>まあね。いつも番組でプレゼントしてるチョコだからさ、おいしいってアピールしといた方が良いからさ。</line>
+    </dialogue>
+    <direction id="391">ソフィー、チョコを持ってくる。</direction>
+    <dialogue id="392">
+      <name>ソフィー</name>
+      <line>あ、あと、足で食べてね。</line>
+    </dialogue>
+    <dialogue id="393">
+      <name>メアリー</name>
+      <line>え、足で？</line>
+    </dialogue>
+    <dialogue id="394">
+      <name>ソフィー</name>
+      <line>だって私たち、足ゲーマーだから。</line>
+    </dialogue>
+    <dialogue id="395">
+      <name>メアリー</name>
+      <line>でも、チョコは普通に手で食べるけど。</line>
+    </dialogue>
+    <dialogue id="396">
+      <name>ソフィー</name>
+      <line>そうなんだ。じゃあしょうがないか。足で食べた方がイイネたくさんつくと思うけど。あと宣伝でも足で食べるって言っちゃったけど、でもまあ、しょうがないか。</line>
+    </dialogue>
+    <dialogue id="397">
+      <name>メアリー</name>
+      <line>ちょっと、やってみよっか。まだ時間あるよね。</line>
+    </dialogue>
+    <dialogue id="398">
+      <name>ソフィー</name>
+      <line>うん、じゃあやってみよう。これで。あれ？ あ、ごめん時間ないわ。</line>
+    </dialogue>
+    <direction id="399">ソフィー、リモコンか何か操作して、</direction>
+    <dialogue id="400">
+      <name>ソフィー</name>
+      <line>はい。今日はですね、パラメーター・バトル・ショウのミニコーナーをお届けします。バトルでは無いんですけどね、いつも番組でプレゼントしている高級チョコレートをメアリーに食べてもらって、味の方をレポートしてもらいたいと思います。こちらの高級チョコレートなんですけど、一応足ゲーマーという事で、足を使って食べるって言ってるんですけどね、大丈夫ですか？ 本当に足で。</line>
+    </dialogue>
+    <direction id="401">メアリー、頑張って足で食べる。</direction>
+    <dialogue id="402">
+      <name>ソフィー</name>
+      <line>すご～い、食べてますね、足で。どうですか、お味の方は。かなりのチョコレート好きだと聞いてますけど。</line>
+    </dialogue>
+    <dialogue id="403">
+      <name>メアリー</name>
+      <line>ん。おいし～い。ぜんぜん違いますねやっぱり。わざとらしい甘さじゃなくて。噛んだ瞬間に、ボディ感が広がるんですよ。豆が違うんでしょうね。標高3000メートルくらいの豆なんじゃないですかね。あ、後味もすご～い。ほんのり、紅茶みたいなアロマが鼻から抜ける感じで。うわぁ、もう一つ食べたくなっちゃいますね。</line>
+    </dialogue>
+    <dialogue id="404">
+      <name>ソフィー</name>
+      <line>あ、失礼しました。今のはリハーサル用のチョコですね。</line>
+    </dialogue>
+    <dialogue id="405">
+      <name>メアリー</name>
+      <line>え？</line>
+    </dialogue>
+    <dialogue id="406">
+      <name>ソフィー</name>
+      <line>ごめんごめん。高級チョコじゃなくて、いつも食べてるやつでした。えーっと、そしたら、味分かんなくなっちゃうから、高級チョコ私が食べてレポートしようかな。</line>
+    </dialogue>
+    <dialogue id="407">
+      <name>メアリー</name>
+      <line>ソフィー…。</line>
+    </dialogue>
+    <dialogue id="408">
+      <name>ソフィー</name>
+      <line>ん？ 大丈夫よ。私やるから。</line>
+    </dialogue>
+    <dialogue id="409">
+      <name>メアリー</name>
+      <line>ソフィーも、足ゲーマーなんだよね…。</line>
+    </dialogue>
+    <dialogue id="410">
+      <name>ソフィー</name>
+      <line>うん。だから、足で食べますよ。よいしょっと。</line>
+    </dialogue>
+    <direction id="411">ソフィー、上手く隠しながら食べる。</direction>
+    <dialogue id="412">
+      <name>ソフィー</name>
+      <line>うわ、おいし～い。ボディ感ある～。あと紅茶の味する～。うん。はい、番組ではこのおいしい高級チョコをプレゼントしていますのでね、</line>
+    </dialogue>
+    <dialogue id="413">
+      <name>メアリー</name>
+      <line>足で食べてないじゃん。</line>
+    </dialogue>
+    <dialogue id="414">
+      <name>ソフィー</name>
+      <line>いやいやいや、見てたでしょ。</line>
+    </dialogue>
+    <dialogue id="415">
+      <name>メアリー</name>
+      <line>ソフィー本当に味分かって言ってんの？</line>
+    </dialogue>
+    <dialogue id="416">
+      <name>ソフィー</name>
+      <line>うん。だってこっち本物の高級チョコだもん。</line>
+    </dialogue>
+    <direction id="417">メアリー、出し抜けにサルを構え、</direction>
+    <dialogue id="418">
+      <name>メアリー</name>
+      <line>パラメーターズ様、パラメーターズ様、ソフィーはどれくらい、普通のチョコと高級チョコが違うと思っていますか。</line>
+    </dialogue>
+    <direction id="419">雷鳴とともに数字（４）がうかびあがる。</direction>
+    <dialogue id="420">
+      <name>メアリー</name>
+      <line>４なんですけど。</line>
+    </dialogue>
+    <dialogue id="421">
+      <name>ソフィー</name>
+      <line>だって私、高級チョコしか食べないもん。</line>
+    </dialogue>
+    <dialogue id="422">
+      <name>メアリー</name>
+      <line>さっきこれ『いつも食べてるやつ』って言ってたよね。</line>
+    </dialogue>
+    <dialogue id="423">
+      <name>ソフィー</name>
+      <line>だから、いつも食べてるから、もう味なんて分かんないの。ちょっと落ち着いてよ。あ、ヤバい。私のイイネ減ってるじゃん。</line>
+    </dialogue>
+    <dialogue id="424">
+      <name>メアリー</name>
+      <line>それが本来の数字なんじゃないの。大体このサル私のなんだからね。…番組をご覧のみなさん、ご存知のようにこのサルは人の気持ちの強さを見る事が出来ます。私たちは今までこの力の使い方を間違っていました。私は今後この力を使って、ソフィーみたいな欲と欺瞞に満ちた人々を正して行こうと思います。私は世の中を良くしたいんです。</line>
+    </dialogue>
+    <direction id="425">サルを自分の方へ向けて、</direction>
+    <dialogue id="426">
+      <name>メアリー</name>
+      <line>パラメーターズ様、パラメーターズ様、私はどれくらい、世の中を良くしたいですか。</line>
+    </dialogue>
+    <direction id="427">雷鳴とともに数字（255）がうかびあがる。<br />ソフィー、膝を落とす。<br />暗転。</direction>
+    <h1 id="428">ローザとアッシュ</h1>
+    <dialogue id="429">
+      <name>アッシュ</name>
+      <line>でもさ、これで世の中が良くなっても、パパとママが元通りになるとは思えないんだけど。</line>
+    </dialogue>
+    <dialogue id="430">
+      <name>ローザ</name>
+      <line>そう。ていうか世の中は良くならないからね。</line>
+    </dialogue>
+    <dialogue id="431">
+      <name>アッシュ</name>
+      <line>ええっ？</line>
+    </dialogue>
+    <dialogue id="432">
+      <name>ローザ</name>
+      <line>だって、世の中を良くしたいっていう気持ちがいくら強くても、その気持ちで本当に世の中が良くなるとは限らないでしょ。でも、番組を見てた人たちはメアリーが世の中を良くしてくれるって信じちゃったんだよね。</line>
+    </dialogue>
+    <dialogue id="433">
+      <name>アッシュ</name>
+      <line>いやぶっちゃけオレは世の中とかどうでもいいんだけど、パパとママはどうなったんだよ。特にママだよ。</line>
+    </dialogue>
+    <dialogue id="434">
+      <name>ローザ</name>
+      <line>大勢の人がメアリーを信じて、メアリーの言う事なら何でも聞くようになって、みんな自分の気持ちよりもサルが出す数字の方を信じるようになっちゃってね。</line>
+    </dialogue>
+    <dialogue id="435">
+      <name>アッシュ</name>
+      <line>世の中バカばっかだな。</line>
+    </dialogue>
+    <dialogue id="436">
+      <name>ローザ</name>
+      <line>そう思うよね。私たちもそう思った。だから、メアリーを裁判にかけたんだ。歴史の授業で習ったでしょ。魔女裁判。</line>
+    </dialogue>
+    <dialogue id="437">
+      <name>アッシュ</name>
+      <line>え、うそ。あれってママの事だったのかよ。でも、魔女裁判って百パーセント有罪で死刑だったって…。</line>
+    </dialogue>
+    <dialogue id="438">
+      <name>ローザ</name>
+      <line>そういう事になってるけど。本当は教科書に載せられないような不思議な事もあったから。</line>
+    </dialogue>
+    <dialogue id="439">
+      <name>アッシュ</name>
+      <line>不思議な･･･ああ、守護霊が助けてくれたっていう？</line>
+    </dialogue>
+    <dialogue id="440">
+      <name>ローザ</name>
+      <line>アッシュ、見えるようになった？</line>
+    </dialogue>
+    <direction id="441">アッシュ、拝むようなポーズ。</direction>
+    <dialogue id="442">
+      <name>アッシュ</name>
+      <line>いや見えねーよ。</line>
+    </dialogue>
+    <dialogue id="443">
+      <name>ローザ</name>
+      <line>魔女裁判の話はまた今度してあげる。それより今は、メアリーの様子を見に行った方がいいんじゃない？</line>
+    </dialogue>
+    <dialogue id="444">
+      <name>アッシュ</name>
+      <line>なんで。</line>
+    </dialogue>
+    <dialogue id="445">
+      <name>ローザ</name>
+      <line>守護霊様はいつも助けてくれるとは限らないからね。今はあなたが、ママを助けてあげたら？</line>
+    </dialogue>
+    <dialogue id="446">
+      <name>アッシュ</name>
+      <line>…良く分かんないけど、じゃあちょっと行ってくる。</line>
+    </dialogue>
+    <direction id="447">アッシュ、去る。</direction>
+    <h1 id="448">アランの死</h1>
+    <direction id="449">一週間後。<br />ピーターの部屋にピーターとアラン。アランはラップトップPCを見ている。</direction>
+    <dialogue id="450">
+      <name>アラン</name>
+      <line>この番組、すごい人気ですね。ただ、ゲームをしないでイイネをもらうって言うのもどうかと思いますけど。</line>
+    </dialogue>
+    <dialogue id="451">
+      <name>ピーター</name>
+      <line>とりあえず、ピザ頼むか。</line>
+    </dialogue>
+    <direction id="452">ピーター、電話する。</direction>
+    <dialogue id="453">
+      <name>アラン</name>
+      <line>これもうバトルっていうか、公開裁判みたいになっちゃってますね。しかも判決が無茶苦茶です。</line>
+    </dialogue>
+    <dialogue id="454">
+      <name>ピーター</name>
+      <line>ああ、アーチェリーで撃ち殺しちゃったやつ？</line>
+    </dialogue>
+    <dialogue id="455">
+      <name>アラン</name>
+      <line>事故ですよね。事故っていうか、競技中に入ってきちゃ駄目ですよね。</line>
+    </dialogue>
+    <dialogue id="456">
+      <name>ピーター</name>
+      <line>何かふざけてゾンビの恰好してたんでしょ。</line>
+    </dialogue>
+    <dialogue id="457">
+      <name>アラン</name>
+      <line>ええ。でもメアリーが、撃った方に悪意があったって言っちゃって。この人悪意が無かった事を証明したくて番組に出たのに…。</line>
+    </dialogue>
+    <dialogue id="458">
+      <name>ピーター</name>
+      <line>メアリーじゃなくてサルが言ったんでしょ。</line>
+    </dialogue>
+    <dialogue id="459">
+      <name>アラン</name>
+      <line>最近サルを使ってないんです。それでメアリー自身が崇拝されてるんですよ。</line>
+    </dialogue>
+    <dialogue id="460">
+      <name>ピーター</name>
+      <line>これさ、サルなんじゃない？ この首の後ろのとこ。</line>
+    </dialogue>
+    <dialogue id="461">
+      <name>アラン</name>
+      <line>あっ。…でもあのサルは、言葉を持たずに進化した人類なんですよね。</line>
+    </dialogue>
+    <dialogue id="462">
+      <name>ピーター</name>
+      <line>言葉が分からなくても、人の気持ちを読む能力を与えてるんだから、悪いのはサルだよ。彼女は悪くない。</line>
+    </dialogue>
+    <direction id="463">呼び鈴が鳴る。</direction>
+    <dialogue id="464">
+      <name>ソフィー</name>
+      <line>ピザ・ビッチで～す。</line>
+    </dialogue>
+    <dialogue id="465">
+      <name>アラン</name>
+      <line>あっ。</line>
+    </dialogue>
+    <dialogue id="466">
+      <name>ピーター</name>
+      <line>ソフィー…。</line>
+    </dialogue>
+    <dialogue id="467">
+      <name>ソフィー</name>
+      <line>久しぶり～。えーっと、こちらご注文いただいたクアトロ・フォルマッジオ・エ・セディチ・ポモドーリの、Ｌサイズですね。あと飲み物。</line>
+    </dialogue>
+    <dialogue id="468">
+      <name>アラン</name>
+      <line>ご無沙汰してます。お元気そうですね。</line>
+    </dialogue>
+    <dialogue id="469">
+      <name>ソフィー</name>
+      <line>この仕事超楽しい。大体ピザ注文するのってイケメンとかだし、でさ、食べさせてあげたりとかするじゃん。でちょっと優しくしたりとかするとイイネつけてくれるしさ。私流行らそうかなと思ってこれ。</line>
+    </dialogue>
+    <dialogue id="470">
+      <name>アラン</name>
+      <line>え、優しくする事を、流行らすんですか？</line>
+    </dialogue>
+    <dialogue id="471">
+      <name>ソフィー</name>
+      <line>優しくって言ってもアレよ。初対面の人にはまあ、かりそめの優しさ、みたいな感じ？</line>
+    </dialogue>
+    <dialogue id="472">
+      <name>アラン</name>
+      <line>そうですか。良いお仕事が見つかって良かったですね。</line>
+    </dialogue>
+    <dialogue id="473">
+      <name>ソフィー</name>
+      <line>え何、喧嘩売ってんの？</line>
+    </dialogue>
+    <dialogue id="474">
+      <name>アラン</name>
+      <line>いえそんなつもりは無いですけど。何か気に障るような…。</line>
+    </dialogue>
+    <dialogue id="475">
+      <name>ピーター</name>
+      <line>アラン、やめとけ。</line>
+    </dialogue>
+    <dialogue id="476">
+      <name>ソフィー</name>
+      <line>売ってんでしょ。売ってんのよ、あんたは。95点の喧嘩を、売ってんの。</line>
+    </dialogue>
+    <dialogue id="477">
+      <name>ピーター</name>
+      <line>ソフィー、落ち着いて。</line>
+    </dialogue>
+    <dialogue id="478">
+      <name>ソフィー</name>
+      <line>食べさせりゃいいんだろ、ピザをよぉ。おら食えよ。</line>
+    </dialogue>
+    <dialogue id="479">
+      <name>ピーター</name>
+      <line>ソフィー！</line>
+    </dialogue>
+    <direction id="480">ピーターに肩を掴まれ、泣き崩れるソフィー。</direction>
+    <dialogue id="481">
+      <name>ソフィー</name>
+      <line>ううううううっ。なんで、なんで私がこんな目に…。あの女、あの女が…。</line>
+    </dialogue>
+    <dialogue id="482">
+      <name>ピーター</name>
+      <line>ソフィー。彼女が悪いんじゃないんだ。これ見て。</line>
+    </dialogue>
+    <dialogue id="483">
+      <name>ソフィー</name>
+      <line>これ、パラメーターズ様…。</line>
+    </dialogue>
+    <dialogue id="484">
+      <name>ピーター</name>
+      <line>多分こいつをメアリーから取り上げれば良いと思うんだよ。</line>
+    </dialogue>
+    <dialogue id="485">
+      <name>アラン</name>
+      <line>でも彼女に近づくのは難しいですよ。フォロワーがすごいですからね。</line>
+    </dialogue>
+    <dialogue id="486">
+      <name>ソフィー</name>
+      <line>私、デリバリーのフリしてメアリーに近づくよ。それでサルを引っぺがせばいいんでしょ？</line>
+    </dialogue>
+    <dialogue id="487">
+      <name>アラン</name>
+      <line>ただどんなふうにくっついているか分からないので、そう簡単に行くかどうか…。</line>
+    </dialogue>
+    <dialogue id="488">
+      <name>ピーター</name>
+      <line>みんながメアリーを信じてるっていう事態を何とかするのが先決かな。まあメアリーっていうか、イイネなんだけど。</line>
+    </dialogue>
+    <dialogue id="489">
+      <name>アラン</name>
+      <line>イイネを、操作してみますか。</line>
+    </dialogue>
+    <dialogue id="490">
+      <name>ソフィー</name>
+      <line>え、どうやって？</line>
+    </dialogue>
+    <dialogue id="491">
+      <name>アラン</name>
+      <line>元々ゲーム用のシステムですからね。うちのサーバにボットでも仕込めばいくらでも操作は出来るんですよ。</line>
+    </dialogue>
+    <dialogue id="492">
+      <name>ソフィー</name>
+      <line>そうなんだ…。</line>
+    </dialogue>
+    <dialogue id="493">
+      <name>アラン</name>
+      <line>実際ゲームの中ではばれない程度に操作してましたしね。</line>
+    </dialogue>
+    <dialogue id="494">
+      <name>ソフィー</name>
+      <line>え、ちょっと何それ。え～…。</line>
+    </dialogue>
+    <dialogue id="495">
+      <name>ピーター</name>
+      <line>ばれないようにっていうのは、出来るもんなの？</line>
+    </dialogue>
+    <dialogue id="496">
+      <name>アラン</name>
+      <line>いえ、痕跡を残さないというのは原理的に不可能です。ただ痕跡を偽装すれば目立たないようには出来ます。</line>
+    </dialogue>
+    <direction id="497">アラン、早速コーディングを始める。ピーターは飲み物を飲んだりする。<br />と、そこへメアリーが現れる。芸術作品を持っている。</direction>
+    <dialogue id="498">
+      <name>メアリー</name>
+      <line>これ返すわ。修復してイイネ増やしといたから。…何やってんの？</line>
+    </dialogue>
+    <direction id="499">アランのPCを見て、</direction>
+    <dialogue id="500">
+      <name>メアリー</name>
+      <line>へえ。ボットでイイネを操作しようって言うの？ そんな事、許されると思ってるの？ …100か。思ってるんだ。誰かフォロワーでアランの弱点知ってる人いるかな。</line>
+    </dialogue>
+    <direction id="501">スマホを操作して、</direction>
+    <dialogue id="502">
+      <name>メアリー</name>
+      <line>向こう脛か。</line>
+    </dialogue>
+    <direction id="503">メアリー、アランの向こう脛を細かく蹴り続ける。<br />ピーター、驚いて飲み物を吹き出す。</direction>
+    <dialogue id="504">
+      <name>アラン</name>
+      <line>あ、ちょ、ちょっと、やめ、やめて、死ぬからそこ。</line>
+    </dialogue>
+    <direction id="505">ソフィー、メアリーの背後に回りサルを剥がそうとするがびくともしない。<br />やがてアラン、死ぬと言って倒れる。</direction>
+    <dialogue id="506">
+      <name>ピーター</name>
+      <line>アラン！</line>
+    </dialogue>
+    <direction id="507">アラン、最後の力を振り絞り、PCに高速タイピング。<br />打ち終えると再び倒れ、動かなくなる。</direction>
+    <dialogue id="508">
+      <name>メアリー</name>
+      <line>え、今のでボット作ったの？ …んな訳ないか。でも一応削除しとくけど。</line>
+    </dialogue>
+    <direction id="509">メアリー、PCを操作する。</direction>
+    <dialogue id="510">
+      <name>メアリー</name>
+      <line>やたら人に喧嘩売るからこういう事になるの。</line>
+    </dialogue>
+    <dialogue id="511">
+      <name>ピーター</name>
+      <line>何やってんだよ！</line>
+    </dialogue>
+    <dialogue id="512">
+      <name>メアリー</name>
+      <line>ちょっと、近づかないでくれる？ それ、ヨダレでしょ。汚い。</line>
+    </dialogue>
+    <direction id="513">メアリー、去る。<br />二人、アランに駆け寄る。<br />アランは死んで、劇の外へ出てくる。</direction>
+    <dialogue id="514">
+      <name>アラン</name>
+      <line>ああ、なるほど。こっちへ来るとこんな風に見えるんですね。…あ、ピーター、ソフィー。…聞こえないか。せっかくPCにメッセージ残したんだけどな。</line>
+    </dialogue>
+    <dialogue id="515">
+      <name>ピーター</name>
+      <line>アラン…、今何て言った。</line>
+    </dialogue>
+    <dialogue id="516">
+      <name>ソフィー</name>
+      <line>ピーター、アラン喋ってないと思うけど…。ねえ警察呼んだ方がいいんじゃない？</line>
+    </dialogue>
+    <dialogue id="517">
+      <name>ピーター</name>
+      <line>無駄だよ。警察もほとんどメアリーのフォロワーだから。</line>
+    </dialogue>
+    <dialogue id="518">
+      <name>アラン</name>
+      <line>PCです。PCを見て下さい。</line>
+    </dialogue>
+    <dialogue id="519">
+      <name>ピーター</name>
+      <line>ん…？ あ、そうか。わざと作りかけのコードを手前に開いてたんだ。さっき打ってたのはこっちのテキストか。…やるね。</line>
+    </dialogue>
+    <dialogue id="520">
+      <name>ソフィー</name>
+      <line>何て？</line>
+    </dialogue>
+    <dialogue id="521">
+      <name>ピーター</name>
+      <line>親愛なるピーターへ。いつもゲーム開発のアドバイスを有難う。何かお礼をと思っていましたがそれも照れ臭いので君たちの結婚祝いという形でと考えていました。しかしどうやらそれも叶いそうにありません。私は死ぬ時が来たようです。ていうかさっきちょっと死にました。<br />本格的に死ぬ前に、君に伝えることが二つあります。一つ目は『ドリクエ』がクリア出来るようになる事。来月のアップデートでリリースされます。君のアドバイスに従って、プレイヤーキャラクターが歳をとって死ぬところまでを入れてあります。<br />二つ目はパラメーターズの弱点について。実は私は夢の中でそのヒントとなる図形を見ました。ただ、その図形が何を意味しているか分からないし、夢で見たなんて恥ずかしいので今まで黙っていました。それでは、お先に失礼します。</line>
+    </dialogue>
+    <dialogue id="522">
+      <name>ソフィー</name>
+      <line>よくあの時間でこれだけ打ったな。図形って？</line>
+    </dialogue>
+    <dialogue id="523">
+      <name>ピーター</name>
+      <line>これかな。</line>
+    </dialogue>
+    <direction id="524">QRコードが投影される。</direction>
+    <dialogue id="525">
+      <name>ソフィー</name>
+      <line>なんだこれ？ 文字みたい。</line>
+    </dialogue>
+    <dialogue id="526">
+      <name>ピーター</name>
+      <line>どこの国の言葉でもないみたいだけど…。</line>
+    </dialogue>
+    <direction id="527">そこへローザが現れ、アランの死体（があった場所）を見る。アランは死体に戻っても良い。</direction>
+    <dialogue id="528">
+      <name>ピーター</name>
+      <line>ローザ…。</line>
+    </dialogue>
+    <dialogue id="529">
+      <name>ローザ</name>
+      <line>状況は大体分かった。ちょっと見せてくれる？ …これ、霊界の言葉じゃない？</line>
+    </dialogue>
+    <dialogue id="530">
+      <name>ピーター</name>
+      <line>霊界って…。死んだ人の言葉ってこと？</line>
+    </dialogue>
+    <direction id="531">ローザ、拝むようなポーズをとる。</direction>
+    <dialogue id="532">
+      <name>ローザ</name>
+      <line>守護霊様、守護霊様、…ほら、あなたたちもやって。…守護霊様、守護霊様、この文字は何と読むのですか。</line>
+    </dialogue>
+    <direction id="533">観客が教えてくれるまでやり続ける。<br />登場人物たちは本当に何と書いてあるか知らない。ここでは仮に『スベスベマンジュウガニ』とする（つまりそんな感じの言葉を仕込む）。</direction>
+    <dialogue id="534">
+      <name>ピーター</name>
+      <line>スベスベ…マンジュウ…ガ…ニ…。</line>
+    </dialogue>
+    <dialogue id="535">
+      <name>ローザ</name>
+      <line>え？</line>
+    </dialogue>
+    <dialogue id="536">
+      <name>ピーター</name>
+      <line>聞こえる。霊の言葉が。スベスベ…スベスベマンジュウガニ！</line>
+    </dialogue>
+    <dialogue id="537">
+      <name>ローザ</name>
+      <line>守護霊様が、スベスベマンジュウガニって言ってるの？</line>
+    </dialogue>
+    <dialogue id="538">
+      <name>ソフィー</name>
+      <line>それが、そのスベスベマンジュウガニっていうのが、あのサルの弱点て事？</line>
+    </dialogue>
+    <dialogue id="539">
+      <name>ピーター</name>
+      <line>分からない。でも確かにスベスベマンジュウガニって聞こえた。一体何なんだ。</line>
+    </dialogue>
+    <dialogue id="540">
+      <name>ソフィー</name>
+      <line>スベスベマンジュウガニ…。ネットで検索しても出てこないよ。</line>
+    </dialogue>
+    <dialogue id="541">
+      <name>ピーター</name>
+      <line>でももう他に手がかりが無いしな。…よし俺、スベスベマンジュウガニを探す旅に出るよ。</line>
+    </dialogue>
+    <dialogue id="542">
+      <name>ソフィー</name>
+      <line>えっ？</line>
+    </dialogue>
+    <dialogue id="543">
+      <name>ローザ</name>
+      <line>ピーター、気をつけて。</line>
+    </dialogue>
+    <direction id="544">ピーター、旅に出る。<br />暗転。</direction>
+    <h1 id="545">魔女裁判</h1>
+    <direction id="546">一年後。<br />公園のような場所にソフィーとローザ。</direction>
+    <dialogue id="547">
+      <name>ソフィー</name>
+      <line>もうピーターは帰って来ないんじゃないかな。</line>
+    </dialogue>
+    <dialogue id="548">
+      <name>ローザ</name>
+      <line>あれから一年か…。</line>
+    </dialogue>
+    <dialogue id="549">
+      <name>ソフィー</name>
+      <line>もう私たちもメアリーにイイネをつけようよ。そうすれば周りから白い目で見られる事もなくなるし。</line>
+    </dialogue>
+    <dialogue id="550">
+      <name>ローザ</name>
+      <line>だからそれは無駄なんだって。イイネをつけても、メアリーのやってる事が本当に良いって思ってなかったらばれるんだから。そしたら余計白い目で見られるよ。</line>
+    </dialogue>
+    <dialogue id="551">
+      <name>ソフィー</name>
+      <line>実は最近、メアリーのやってる事は正しいんじゃないかって、思う事があるんだよね。</line>
+    </dialogue>
+    <dialogue id="552">
+      <name>ローザ</name>
+      <line>え？</line>
+    </dialogue>
+    <dialogue id="553">
+      <name>ソフィー</name>
+      <line>だって、メアリーに任せておけば誰が悪い事考えてるか分かるんだから。警察や裁判所よりよっぽど頼りになるじゃん。ローザだってそう思うでしょ。</line>
+    </dialogue>
+    <dialogue id="554">
+      <name>ローザ</name>
+      <line>ソフィー、しっかりして。魔女裁判をやろうって言い出したのはソフィーでしょ。</line>
+    </dialogue>
+    <dialogue id="555">
+      <name>ソフィー</name>
+      <line>『ドリクエ』だってクリア出来るとか言って結局できないじゃん。結局またイイネ集めるだけの人生じゃん。</line>
+    </dialogue>
+    <dialogue id="556">
+      <name>ローザ</name>
+      <line>ソフィー。一年前自分が何をされたか良く思い出して。</line>
+    </dialogue>
+    <dialogue id="557">
+      <name>ソフィー</name>
+      <line>…じゃあ、もうピーター待たずにやっちゃおうよ。もう負けてもいい。私メアリーに電話する。</line>
+    </dialogue>
+    <direction id="558">そこへメアリー。かなり凶悪な外見になっている。</direction>
+    <dialogue id="559">
+      <name>ローザ</name>
+      <line>メアリー…。</line>
+    </dialogue>
+    <dialogue id="560">
+      <name>メアリー</name>
+      <line>呼んだ？</line>
+    </dialogue>
+    <dialogue id="561">
+      <name>ローザ</name>
+      <line>もしかして、もう遠くからでも、こっちの考えてる事分かるの？</line>
+    </dialogue>
+    <dialogue id="562">
+      <name>メアリー</name>
+      <line>うん。何となくね。どうすんの？ 火あぶり？</line>
+    </dialogue>
+    <dialogue id="563">
+      <name>ソフィー</name>
+      <line>ス、スベスベマンジュウガニ！ スベスベマンジュウガニ！</line>
+    </dialogue>
+    <direction id="564">メアリー、ソフィーを張り倒す。</direction>
+    <dialogue id="565">
+      <name>ソフィー</name>
+      <line>痛いっ！</line>
+    </dialogue>
+    <dialogue id="566">
+      <name>ローザ</name>
+      <line>ど、どうしよう…。そうだ、守護霊様、守護霊様、メアリーからサルを追い払って下さい。</line>
+    </dialogue>
+    <dialogue id="567">
+      <name>メアリー</name>
+      <line>ふん。あのね、私には何千万っていうフォロワーがついてるの（といってスマホを見せる）。なに守護霊って。電波？ あんた電波系？ やめてよそういう面白いの。（スマホを見て）あれ、ここ電波弱いな。</line>
+    </dialogue>
+    <direction id="568">そこへピーター。ポップコーンを持っている。</direction>
+    <dialogue id="569">
+      <name>ソフィー</name>
+      <line>ピーター!!</line>
+    </dialogue>
+    <dialogue id="570">
+      <name>ピーター</name>
+      <line>お待たせ。結局黄泉の国まで行っちゃって。</line>
+    </dialogue>
+    <dialogue id="571">
+      <name>ソフィー</name>
+      <line>黄泉の国って…死んだ人が行くところ？</line>
+    </dialogue>
+    <dialogue id="572">
+      <name>メアリー</name>
+      <line>黄泉の国？ まさか…そ、それは…、スベスベマンジュウガニ！</line>
+    </dialogue>
+    <dialogue id="573">
+      <name>ソフィー</name>
+      <line>え、それが？</line>
+    </dialogue>
+    <direction id="574">スクリーンにサルの体力が表示される。</direction>
+    <dialogue id="575">
+      <name>ピーター</name>
+      <line>メアリー、ちょっと我慢してて。</line>
+    </dialogue>
+    <direction id="576">といってポップコーンを投げつけると、サルの体力が少し減る。</direction>
+    <dialogue id="577">
+      <name>メアリー</name>
+      <line>ぐああっ！</line>
+    </dialogue>
+    <dialogue id="578">
+      <name>ソフィー</name>
+      <line>え、そんだけしか減らないの？ ちょっと貸して。</line>
+    </dialogue>
+    <direction id="579">ソフィーも投げつけるが大して減らない。そうこうしているうちにポップコーンが無くなってしまう。ローザは祈っている。</direction>
+    <dialogue id="580">
+      <name>ピーター</name>
+      <line>ああもう無い。（ローザを見て）守護霊様…、もし本当にいるなら、今だけでいいから助けてよっ！</line>
+    </dialogue>
+    <direction id="581">役者はストップモーションとなり、スクリーンに『パラメーターズの遊び方』というインストラクションが表示される。<br />それによると観客はメアリーにポップコーンを当ててサルの体力を減らさなければならない。しかし一度に当てすぎるとメアリーが観客の存在に気付いてしまう。危ないと思ったら投げるのをやめること。<br />インストラクションが終わると、『Ready, Go!』と表示され、役者が動き出す。<br />ゲーム中はサルの体力とともに、『当てろ！』とか『ストップ！』とかヒントが表示される。<br />メアリーはダメージを受けたり、観客の存在に気付きそうになったりすること。<br />他の３人は『スベスベマンジュウガニの力が汝を滅ぼす！』などと唱える。<br />サルは体力がゼロになるとメアリーから剥がれ落ち、スクリーンには『終了』と表示される。</direction>
+    <dialogue id="582">
+      <name>メアリー</name>
+      <line>見えない…。数字が、数字が見えない…。</line>
+    </dialogue>
+    <direction id="583">サルを拾って構えるが、何も起こらない。</direction>
+    <dialogue id="584">
+      <name>ピーター</name>
+      <line>メアリー、数字なんか見えなくても、俺のこと分かるだろ？</line>
+    </dialogue>
+    <direction id="585">オープニングがフラッシュバックし、メアリーが徐々に正気を取り戻していく。</direction>
+    <dialogue id="586">
+      <name>メアリー</name>
+      <line>ピーター、私…、ごめんなさい、私、どうしよう。</line>
+    </dialogue>
+    <direction id="587">ピーター、置いてあったメアリーの鞄からゲーム機を取り出して渡す。</direction>
+    <dialogue id="588">
+      <name>ピーター</name>
+      <line>俺と一緒に、クリアしてくれない？</line>
+    </dialogue>
+    <direction id="589">二人、ゲームを始める。</direction>
+    <dialogue id="590">
+      <name>ソフィー</name>
+      <line>『ドリクエ』？ それ無理だよ。クリア出来ないんだもん。</line>
+    </dialogue>
+    <dialogue id="591">
+      <name>ピーター</name>
+      <line>ああ、そう言えばアランが、プレイヤー同士協力する必要があるって言ってたな。</line>
+    </dialogue>
+    <direction id="592">画面がラストバトルに突入する。</direction>
+    <dialogue id="593">
+      <name>メアリー</name>
+      <line>ちょっと私、足でやっていい？</line>
+    </dialogue>
+    <dialogue id="594">
+      <name>ソフィー</name>
+      <line>ていうか何、この茶番。裁判はどうなったの？</line>
+    </dialogue>
+    <dialogue id="595">
+      <name>ローザ</name>
+      <line>それは、もういいんじゃない？</line>
+    </dialogue>
+    <dialogue id="596">
+      <name>ソフィー</name>
+      <line>ああもう、くそ、私が最初にクリアするのに。</line>
+    </dialogue>
+    <direction id="597">ソフィーもゲームを始めるが、ピーターとメアリーが先にラスボス（ドリュー・バリモア）を倒す。<br />スクリーンに『ここまでをセーブして、エンディングを見ますか？ はい・いいえ』と表示される。<br />ソフィーがメアリーのゲーム機を奪う。</direction>
+    <dialogue id="598">
+      <name>ソフィー</name>
+      <line>そいつと一緒になったら、典型的な普通の人生になっちゃうんだよ？</line>
+    </dialogue>
+    <direction id="599">メアリーは腕を掴まれるが、ソフィーに奪われたゲーム機を足で巧みに操作し、『はい』を選択する。</direction>
+    <dialogue id="600">
+      <name>メアリー</name>
+      <line>私、結婚しても足ゲーマー続けるから。</line>
+    </dialogue>
+    <direction id="601">ソフィー、嗚呼といって崩れ落ちる。<br />教会の鐘が鳴る。音楽。</direction>
+    <h1 id="602">典型的な普通の人生</h1>
+    <h2 id="603">ピーターとメアリーの結婚式</h2>
+    <direction id="604">指輪の交換とキス。<br />ローザとソフィーに見送られる。<br />暗転。</direction>
+    <h2 id="605">ピーターとメアリーの新居</h2>
+    <dialogue id="606">
+      <name>メアリー</name>
+      <line>今日面接？</line>
+    </dialogue>
+    <dialogue id="607">
+      <name>ピーター</name>
+      <line>うん。ゲーム会社。</line>
+    </dialogue>
+    <dialogue id="608">
+      <name>メアリー</name>
+      <line>じゃあ片付けやっとくから。気をつけてね。</line>
+    </dialogue>
+    <direction id="609">ピーター、出かける。メアリーの電話が鳴る。</direction>
+    <dialogue id="610">
+      <name>メアリー</name>
+      <line>あ、ママ。うん元気。仲良くやってるよ。え？ まだ早いでしょ子供とか。そっちは大丈夫なの？</line>
+    </dialogue>
+    <direction id="611">暗転。</direction>
+    <h2 id="612">就職祝い</h2>
+    <dialogue id="613">
+      <name>メアリー</name>
+      <line>就職おめでとう。</line>
+    </dialogue>
+    <dialogue id="614">
+      <name>ピーター</name>
+      <line>有難う。ていうかまたピザ？</line>
+    </dialogue>
+    <dialogue id="615">
+      <name>メアリー</name>
+      <line>いいじゃん。好きでしょ。</line>
+    </dialogue>
+    <dialogue id="616">
+      <name>ピーター</name>
+      <line>うん。好き。</line>
+    </dialogue>
+    <direction id="617">暗転。</direction>
+    <h2 id="618">ホステスの名刺</h2>
+    <dialogue id="619">
+      <name>メアリー</name>
+      <line>これ、ポケットから出てきたんだけど。</line>
+    </dialogue>
+    <dialogue id="620">
+      <name>ピーター</name>
+      <line>あ、それ、仕事で、行ったやつ。</line>
+    </dialogue>
+    <dialogue id="621">
+      <name>メアリー</name>
+      <line>ここほら、『指名してね』って書いてあるんだけど。</line>
+    </dialogue>
+    <dialogue id="622">
+      <name>ピーター</name>
+      <line>いやそれ、もう、変な女に一方的に渡されたんで。</line>
+    </dialogue>
+    <dialogue id="623">
+      <name>メアリー</name>
+      <line>いやおかしいでしょ。</line>
+    </dialogue>
+    <direction id="624">暗転。</direction>
+    <h2 id="625">メアリーの妊娠</h2>
+    <direction id="626">帰宅するピーター。メアリーに包みを差し出す。<br />メアリー、無言で受け取る。開けると鞄。</direction>
+    <dialogue id="627">
+      <name>メアリー</name>
+      <line>よく私が欲しいの知ってたじゃん。</line>
+    </dialogue>
+    <dialogue id="628">
+      <name>ピーター</name>
+      <line>うん。まあ。</line>
+    </dialogue>
+    <dialogue id="629">
+      <name>メアリー</name>
+      <line>有難う。</line>
+    </dialogue>
+    <dialogue id="630">
+      <name>ピーター</name>
+      <line>あと、iPodのきみまろ、全部消しといたから。</line>
+    </dialogue>
+    <dialogue id="631">
+      <name>メアリー</name>
+      <line>有難う…。</line>
+    </dialogue>
+    <dialogue id="632">
+      <name>ピーター</name>
+      <line>ん？ どうしたの？</line>
+    </dialogue>
+    <direction id="633">メアリー、お腹をさすって見せる。</direction>
+    <dialogue id="634">
+      <name>ピーター</name>
+      <line>え、本当に？</line>
+    </dialogue>
+    <dialogue id="635">
+      <name>メアリー</name>
+      <line>名前なんだけど、『アッシュ』ってどう？</line>
+    </dialogue>
+    <direction id="636">微笑みあう二人。<br />暗転。</direction>
+    <h2 id="637">アッシュの反抗期</h2>
+    <direction id="638">歳をとったピーターとメアリー。</direction>
+    <dialogue id="639">
+      <name>ピーター</name>
+      <line>アッシュは、最近帰ってくるのが遅いみたいだけど、大丈夫なのか。</line>
+    </dialogue>
+    <dialogue id="640">
+      <name>メアリー</name>
+      <line>どうなんでしょう。あまり話してくれなくて。</line>
+    </dialogue>
+    <direction id="641">アッシュ、帰ってくる。</direction>
+    <dialogue id="642">
+      <name>ピーター</name>
+      <line>こんな時間までどこ行ってたんだ。</line>
+    </dialogue>
+    <dialogue id="643">
+      <name>アッシュ</name>
+      <line>うっせえなあ。自分だって酔っ払って帰ってくるくせに。</line>
+    </dialogue>
+    <dialogue id="644">
+      <name>メアリー</name>
+      <line>パパのは、お仕事の関係もあるのよ。</line>
+    </dialogue>
+    <dialogue id="645">
+      <name>アッシュ</name>
+      <line>オレの名前、ママが付けたんだっけ？ オレ学校で『死霊のはらわた』の主人公とか言われてんだけど。</line>
+    </dialogue>
+    <dialogue id="646">
+      <name>メアリー</name>
+      <line>そんな事で怒ってるの？</line>
+    </dialogue>
+    <dialogue id="647">
+      <name>アッシュ</name>
+      <line>そんな事って何だよ。平凡な主婦のくせに変な名前付けてんじゃねえよ。</line>
+    </dialogue>
+    <dialogue id="648">
+      <name>ピーター</name>
+      <line>お前、ママに何て事言うんだ。</line>
+    </dialogue>
+    <dialogue id="649">
+      <name>メアリー</name>
+      <line>あなた、やめて下さい。</line>
+    </dialogue>
+    <direction id="650">勢いで倒れるメアリー。足を捻る。<br />救急車の音。暗転。</direction>
+    <h2 id="651">ソフィーの怨み</h2>
+    <direction id="652">メアリーが歩いてくる。<br />買い物かごを持って、杖を突いている。<br />そこへソフィー。</direction>
+    <dialogue id="653">
+      <name>ソフィー</name>
+      <line>あれ？ メアリーじゃん。久しぶり。何、足どうしたの。どうしたの、ちょっと見せてよ。</line>
+    </dialogue>
+    <direction id="654">ソフィーに触られて転ぶメアリー。</direction>
+    <dialogue id="655">
+      <name>ソフィー</name>
+      <line>そういえばさっきあんたんとこの息子、学校も行かないでふらふらしてたけど。どうなってんの、あんたんとこ。大丈夫？ ねえ。</line>
+    </dialogue>
+    <direction id="656">と言いながら、かごの中身を漁る。</direction>
+    <dialogue id="657">
+      <name>メアリー</name>
+      <line>あ、それ…。</line>
+    </dialogue>
+    <dialogue id="658">
+      <name>ソフィー</name>
+      <line>いいじゃん少しくらい。どうせ夕食っつったって家族揃わないんでしょ。</line>
+    </dialogue>
+    <direction id="659">持ち去ろうとすると、そこへアッシュ。</direction>
+    <dialogue id="660">
+      <name>ソフィー</name>
+      <line>学校行かないんなら親の手伝いでもしたら。</line>
+    </dialogue>
+    <direction id="661">アッシュ、ソフィーに２～３発蹴りを入れる。<br />ソフィー、ぐえと言って倒れ、動かなくなる。</direction>
+    <dialogue id="662">
+      <name>メアリー</name>
+      <line>アッシュ…。</line>
+    </dialogue>
+    <direction id="663">アッシュ、メアリーを助け起こしながら</direction>
+    <dialogue id="664">
+      <name>アッシュ</name>
+      <line>ママ、あの…、会って欲しい人がいるんだけど。</line>
+    </dialogue>
+    <direction id="665">暗転。</direction>
+    <h2 id="666">アッシュへの手紙</h2>
+    <direction id="667">手紙を書いているピーターと、それを見ているメアリー。</direction>
+    <dialogue id="668">
+      <name>ピーター</name>
+      <line>ちょっと長すぎるか。</line>
+    </dialogue>
+    <dialogue id="669">
+      <name>メアリー</name>
+      <line>ええ、もうちょっと短くてもいいんじゃないですか。向こうのお父さんが気合入れて書いてくるかも知れませんし。</line>
+    </dialogue>
+    <dialogue id="670">
+      <name>ピーター</name>
+      <line>何で男より女の方が結婚式を大事にするんだろうね。</line>
+    </dialogue>
+    <dialogue id="671">
+      <name>メアリー</name>
+      <line>私たちの時はそうでも無かったですけど。</line>
+    </dialogue>
+    <dialogue id="672">
+      <name>ピーター</name>
+      <line>そうか？ …じゃあこの、アッシュが幽霊見えるようになった話はやめるか。</line>
+    </dialogue>
+    <dialogue id="673">
+      <name>メアリー</name>
+      <line>そうですね…。</line>
+    </dialogue>
+    <direction id="674">といって少し泣く。</direction>
+    <dialogue id="675">
+      <name>ピーター</name>
+      <line>何だよお前、まだ早いよ。</line>
+    </dialogue>
+    <direction id="676">暗転。</direction>
+    <h2 id="677">結婚式の帰り</h2>
+    <dialogue id="678">
+      <name>ピーター</name>
+      <line>式場は良かったけど、料理はイマイチだったな。</line>
+    </dialogue>
+    <dialogue id="679">
+      <name>メアリー</name>
+      <line>最初からたくさんお酒を飲むからですよ。あ、それ、ヨダレじゃないですか。やだ汚い。</line>
+    </dialogue>
+    <direction id="680">メアリー、ピーターをベンチに座らせてヨダレを拭いてあげる。自分も座る。</direction>
+    <dialogue id="681">
+      <name>ピーター</name>
+      <line>うん、何か嬉しくて、飲みたくなっちゃってさ。</line>
+    </dialogue>
+    <dialogue id="682">
+      <name>メアリー</name>
+      <line>たしかに式場は、私たちの時よりは良かったですね。</line>
+    </dialogue>
+    <dialogue id="683">
+      <name>ピーター</name>
+      <line>まあでも、俺はこの公園も好きだけどね。</line>
+    </dialogue>
+    <dialogue id="684">
+      <name>メアリー</name>
+      <line>…あれ以来、守護霊様は見えないんですか？</line>
+    </dialogue>
+    <dialogue id="685">
+      <name>ピーター</name>
+      <line>ああ、あの時も本当に見えてたのかどうか…。次に見る時は、自分があっち側へ行く時かも知れないな。</line>
+    </dialogue>
+    <dialogue id="686">
+      <name>メアリー</name>
+      <line>まだ早いですよ。</line>
+    </dialogue>
+    <dialogue id="687">
+      <name>ピーター</name>
+      <line>そうだな。その前に孫の顔を見ないと。</line>
+    </dialogue>
+    <direction id="688">暗転。</direction>
+    <h1 id="689">エピローグ</h1>
+    <direction id="690">老いたメアリーが骨壷を持って座っている。<br />壷を開けて灰を掬い、さらさらと流し落とす。<br />そこへローザが来る。<br />メアリーは壷を元に戻す。</direction>
+    <dialogue id="691">
+      <name>ローザ</name>
+      <line>アッシュには、ピーターが見えてたみたいね。奥さんや子供には言ってなかったけど。</line>
+    </dialogue>
+    <dialogue id="692">
+      <name>メアリー</name>
+      <line>ローザ、もし私に何かあったら、あの家族をよろしくお願いします。</line>
+    </dialogue>
+    <dialogue id="693">
+      <name>ローザ</name>
+      <line>メアリー、あなたに言っておく事があるんだけど。</line>
+    </dialogue>
+    <dialogue id="694">
+      <name>メアリー</name>
+      <line>何でしょう。</line>
+    </dialogue>
+    <dialogue id="695">
+      <name>ローザ</name>
+      <line>その鞄の中の、サルの事。</line>
+    </dialogue>
+  </body>
+  <footer>
+    <comment id="713">この続きは、PlaySCriptViewer（正規版）の付録をご覧ください。</comment>
+    <comment id="714">この作品はクリエイティブ・コモンズ・ライセンス 表示 - 継承 2.1 日本 の下に提供されています。このライセンスのコピーを見るためには、http://creativecommons.org/licenses/by-sa/2.1/jp/ をご覧になるか、以下へお手紙をお送り下さい：  Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</comment>
+  </footer>
+</playscript>
