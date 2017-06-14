@@ -5,7 +5,7 @@ This is Excel macro for stage rehearsal plans.
 - There is a separate Attendance sheet. If you put attendance info there, these sheets can refer to each other.
 - Check the "使い方" sheet for more inforamtion (though it's only in Japanese so far).
 # 稽古プランシート
-これは、演劇の稽古のための Excel マクロです。
+これは、演劇の稽古を計画するためのための Excel マクロです。
 - [PSCML](http://satamame.com/pscml/) 形式の台本データを Excel に読み込んで、同時に香盤表を生成します。
 - 香盤表のシーン名は、台本シートの柱へのリンクになります。
 - 出欠表シートに出欠状況を書き込むことで、これらのシートが相互参照するようになります。
